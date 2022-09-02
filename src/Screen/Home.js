@@ -1,7 +1,11 @@
 import React from 'react'
+import '../Styles/Home.css'
 
 export default function Home() {
   return (
-    <div>Home home</div>
+    <div className='homeBody'>
+      <h1 className='Text'>akkkk</h1>
+      <div>ddd</div>
+    </div>
   )
 }
