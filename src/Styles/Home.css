@@ -4,3 +4,23 @@
     justify-content: center;
     align-items: center;
 }
+.homeImage{
+    height: 500px;
+    width: 350px;
+    border: .8px solid #fff;
+    
+}
+.homeImage2{
+    height: 470px;
+    margin-top: 15px;
+    margin-left: -15px;
+    width: 380px;
+    border: .8px solid #fff;
+    position: absolute;
+}
+.homeImg{
+    height: 300px;
+    width: 300px;
+    clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 79% 0, 89% 10%, 100% 20%, 100% 85%, 85% 85%, 85% 100%, 22% 100%, 9% 88%, 0 79%);
+    margin-top: 20px; 
+}
