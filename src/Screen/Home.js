@@ -54,7 +54,7 @@ export default function Home() {
         </div>
       </Layout>
       <Layout>
-        <div>fff</div>
+        <div>inro</div>
       </Layout>
 
 
