@@ -54,7 +54,7 @@ export default function Home() {
         </div>
       </Layout>
       <Layout>
-        <div>inro</div>
+        <div>inro of my self</div>
       </Layout>
 
 
