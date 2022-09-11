@@ -20,22 +20,22 @@ export default function Header() {
         <Slide>
           <div className="each-slide-effect">
             <div style={{ 'backgroundImage': `url(${images[0]})` }}>
-              <p className='HomeStyleP'>Smart Street Lighting System </p>
+              <p className='HomeStyleP2'>Tasnim Shahriar Akash</p>
             </div>
           </div>
           <div className="each-slide-effect">
             <div style={{ 'backgroundImage': `url(${images[1]})` }}>
-              <p className='HomeStyleP'>Smart Street Lighting System </p>
+              <p className='HomeStyleP'>Tasnim Shahriar Akash </p>
             </div>
           </div>
           <div className="each-slide-effect">
             <div style={{ 'backgroundImage': `url(${images[2]})` }}>
-              <p className='HomeStyleP'>Smart Street Lighting System </p>
+              <p className='HomeStyleP2'>Tasnim Shahriar Akash </p>
             </div>
           </div>
           <div className="each-slide-effect">
             <div style={{ 'backgroundImage': `url(${images[3]})` }}>
-              <p className='HomeStyleP'>Smart Street Lighting System </p>
+              <p className='HomeStyleP'>Tasnim Shahriar Akash</p>
             </div>
           </div>
         </Slide>

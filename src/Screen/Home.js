@@ -12,9 +12,11 @@ export default function Home() {
   return (
 
     <Layout>
-      <Row>
+      <Row >
         <Col span={12}>
+          <div>
 
+          </div>
         </Col>
         <Col span={12}>
           <Layout>
@@ -63,7 +65,9 @@ export default function Home() {
       </Row>
 
       <Layout>
-        <div>inro of my self</div>
+        <div>
+          <h1>AKASH</h1>
+        </div>
       </Layout>
 
 
