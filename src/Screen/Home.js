@@ -1,14 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../Styles/Home.css'
 import ProfileImage from '../Image/ProfileImage.jpeg'
 import TextAnimation from "react-text-animations";
 import AnimatedText from 'react-animated-text-content';
-import { Col, Row, Layout } from 'antd';
+import { Col, Row, Layout, Button, Radio } from 'antd';
+import img from "../Image/on-desk.png"
+import {
+  DownloadOutlined, GithubOutlined, FacebookOutlined,
+  LinkedinOutlined, GoogleOutlined, TwitterOutlined,
+} from '@ant-design/icons';
 
 
 const { Header, Footer, Sider, Content } = Layout;
 
 export default function Home() {
+
   return (
 
     <Layout>
@@ -64,9 +70,37 @@ export default function Home() {
         </Col>
       </Row>
 
-      <Layout>
-        <div>
-          <h1>AKASH</h1>
+      <Layout className='HomeLayout'>
+        <div style={{ flex: 1, flexDirection: 'row' }}>
+          <h1>me.!</h1>
+          <p>A passionate Full Stack Software Developer,</p>
+          <p> having an experience of building Web and Mobile applications </p>
+          <p>with JavaScript / Reactjs / React Native / Nodejs and </p>
+          <p>other cool libraries and frameworks</p>
+          <div>
+            <Button type="link" >
+              <GithubOutlined />
+            </Button>
+
+            <Button type="link" >
+              <LinkedinOutlined />
+            </Button>
+
+            <Button type="link" >
+              <GoogleOutlined />
+            </Button>
+
+            <Button type="link" >
+              <FacebookOutlined />
+            </Button>
+
+            <Button type="link" >
+              <TwitterOutlined />
+            </Button>
+          </div>
+        </div>
+        <div style={{ flex: 1, }}>
+          <img src={img} className='HomeLayoutImg'></img>
         </div>
       </Layout>
 
