@@ -39,3 +39,21 @@
     height: 400px;
     width: auto;
 }
+.HomeLayoutLine{
+    height: 2px;
+    width: 40%;
+    background-color: rgb(56, 46, 46);
+    margin-left: 30%;
+    margin-top: 15px;
+}
+.HomeLayoutButton{
+    font-size: 33px;
+    border: none;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.HomeLayoutIcon:hover{
+    color: #fff;
+}

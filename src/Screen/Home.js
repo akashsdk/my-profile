@@ -71,31 +71,37 @@ export default function Home() {
       </Row>
 
       <Layout className='HomeLayout'>
-        <div style={{ flex: 1, flexDirection: 'row' }}>
+        <div style={{ flex: 1, flexDirection: 'row',}}>
           <h1>me.!</h1>
           <p>A passionate Full Stack Software Developer,</p>
           <p> having an experience of building Web and Mobile applications </p>
           <p>with JavaScript / Reactjs / React Native / Nodejs and </p>
           <p>other cool libraries and frameworks</p>
+          <div className='HomeLayoutLine'></div>
           <div>
-            <Button type="link" >
-              <GithubOutlined />
+            <Button type="link" className='HomeLayoutButton'
+            href="https://github.com/akashsdk" >
+              <GithubOutlined className='HomeLayoutIcon'/>
             </Button>
 
-            <Button type="link" >
-              <LinkedinOutlined />
+            <Button type="link" className='HomeLayoutButton'
+            href="https://www.linkedin.com/in/tasnimsakash/">
+              <LinkedinOutlined className='HomeLayoutIcon'/>
             </Button>
 
-            <Button type="link" >
-              <GoogleOutlined />
+            <Button type="link" className='HomeLayoutButton'
+            href=''>
+              <GoogleOutlined className='HomeLayoutIcon'/>
             </Button>
 
-            <Button type="link" >
-              <FacebookOutlined />
+            <Button type="link" className='HomeLayoutButton'
+            href='https://www.facebook.com/tasnimSakash/'>
+              <FacebookOutlined className='HomeLayoutIcon'/>
             </Button>
 
-            <Button type="link" >
-              <TwitterOutlined />
+            <Button type="link" className='HomeLayoutButton'
+            href='https://twitter.com/tasnimSakash'>
+              <TwitterOutlined className='HomeLayoutIcon'/>
             </Button>
           </div>
         </div>
