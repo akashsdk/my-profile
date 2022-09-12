@@ -57,3 +57,9 @@
 .HomeLayoutIcon:hover{
     color: #fff;
 }
+
+.HomeLayoutButton2{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+}

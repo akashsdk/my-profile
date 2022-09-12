@@ -71,7 +71,7 @@ export default function Home() {
       </Row>
 
       <Layout className='HomeLayout'>
-        <div style={{ flex: 1, flexDirection: 'row',}}>
+        <div style={{ flex: 1, flexDirection: 'row', }}>
           <h1>me.!</h1>
           <p>A passionate Full Stack Software Developer,</p>
           <p> having an experience of building Web and Mobile applications </p>
@@ -80,29 +80,33 @@ export default function Home() {
           <div className='HomeLayoutLine'></div>
           <div>
             <Button type="link" className='HomeLayoutButton'
-            href="https://github.com/akashsdk" >
-              <GithubOutlined className='HomeLayoutIcon'/>
+              href="https://github.com/akashsdk" >
+              <GithubOutlined className='HomeLayoutIcon' />
             </Button>
 
             <Button type="link" className='HomeLayoutButton'
-            href="https://www.linkedin.com/in/tasnimsakash/">
-              <LinkedinOutlined className='HomeLayoutIcon'/>
+              href="https://www.linkedin.com/in/tasnimsakash/">
+              <LinkedinOutlined className='HomeLayoutIcon' />
             </Button>
 
             <Button type="link" className='HomeLayoutButton'
-            href=''>
-              <GoogleOutlined className='HomeLayoutIcon'/>
+              href=''>
+              <GoogleOutlined className='HomeLayoutIcon' />
             </Button>
 
             <Button type="link" className='HomeLayoutButton'
-            href='https://www.facebook.com/tasnimSakash/'>
-              <FacebookOutlined className='HomeLayoutIcon'/>
+              href='https://www.facebook.com/tasnimSakash/'>
+              <FacebookOutlined className='HomeLayoutIcon' />
             </Button>
 
             <Button type="link" className='HomeLayoutButton'
-            href='https://twitter.com/tasnimSakash'>
-              <TwitterOutlined className='HomeLayoutIcon'/>
+              href='https://twitter.com/tasnimSakash'>
+              <TwitterOutlined className='HomeLayoutIcon' />
             </Button>
+          </div>
+          <div>
+            <button className='HomeLayoutButton2'>CONTACT ME</button>
+            <button className='HomeLayoutButton2'>SEE MY RESUME</button>
           </div>
         </div>
         <div style={{ flex: 1, }}>
