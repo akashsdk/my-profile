@@ -13,7 +13,7 @@ export default function Header() {
       <div className='HeaderDiv'>
         <nav>
           <Link className="link-1" to="/">Home</Link>
-          <Link className="link-1" to="/">Home</Link>
+          <Link className="link-1" to="/ContactMe">Contact Me</Link>
         </nav>
       </div>
     </div>

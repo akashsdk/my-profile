@@ -3,6 +3,7 @@ import Home from './Screen/Home';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import ContactMe from './Screen/ContactMe';
+import Resume from './Screen/Resume';
 
 
 
@@ -16,6 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path='/ContactMe' element={<ContactMe />} />
+        <Route path='/Resume' element={<Resume />} />
       </Routes>
       <Footer/>
     </div>

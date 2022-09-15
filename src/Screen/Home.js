@@ -9,6 +9,7 @@ import {
   DownloadOutlined, GithubOutlined, FacebookOutlined,
   LinkedinOutlined, GoogleOutlined, TwitterOutlined,
 } from '@ant-design/icons';
+import {  Link, } from "react-router-dom";
 
 
 const { Header, Footer, Sider, Content } = Layout;
@@ -105,8 +106,8 @@ export default function Home() {
             </Button>
           </div>
           <div>
-            <button className='HomeLayoutButton2'>CONTACT ME</button>
-            <button className='HomeLayoutButton2'>SEE MY RESUME</button>
+            <Link className='HomeLayoutButton2' to="/ContactMe">Contact Me</Link>
+            <Link className='HomeLayoutButton2' to="/Resume">SEE MY RESUME</Link>
           </div>
         </div>
         <div style={{ flex: 1, }}>
