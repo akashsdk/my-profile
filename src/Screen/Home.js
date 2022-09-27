@@ -136,7 +136,6 @@ export default function Home() {
           <p>I like to smell the wind coming from the ocean.</p>
           <p>I like to look at the clouds in the sky with a blank mind,</p>
           <p>I like to do thought experiment when I cannot sleep in the middle of the night.</p>
-          <div className='HomeLayoutLine'></div>
 
 
         </div>
@@ -176,19 +175,20 @@ export default function Home() {
         </div>
 
       </Layout>
+      <div className='HomeLayoutLine'></div>
 
       <Layout>
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'row', marginTop:'20px'}}>
-          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px',background:'transparent',border:'hide',}}>
-          Experience
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'row', marginTop: '20px' }}>
+          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', background: 'transparent', border: 'hide', }}>
+            Experience
           </button>
           <div className='HomeExpLine' />
-          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px',background:'transparent',border:'hide', marginLeft:'10px'}}>
-          Education
+          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', background: 'transparent', border: 'hide', marginLeft: '10px' }}>
+            Education
           </button>
           <div className='HomeExpLine' />
-          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px',background:'transparent',border:'hide', marginLeft:'10px' }}>
-          Skills
+          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', background: 'transparent', border: 'hide', marginLeft: '10px' }}>
+            Skills
           </button>
         </div>
         {/* Experience */}
