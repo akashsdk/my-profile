@@ -8,6 +8,7 @@ import img from "../Image/on-desk.png"
 import {
   DownloadOutlined, GithubOutlined, FacebookOutlined,
   LinkedinOutlined, GoogleOutlined, TwitterOutlined,
+  WhatsAppOutlined
 } from '@ant-design/icons';
 import {  Link, } from "react-router-dom";
 
@@ -103,6 +104,11 @@ export default function Home() {
             <Button type="link" className='HomeLayoutButton'
               href='https://twitter.com/tasnimSakash'>
               <TwitterOutlined className='HomeLayoutIcon' />
+            </Button>
+
+            <Button type="link" className='HomeLayoutButton'
+              href='https://api.whatsapp.com/send?phone=8801580233165&text=hello%F0%9F%98%87'>
+              <WhatsAppOutlined className='HomeLayoutIcon' />
             </Button>
           </div>
           <div>

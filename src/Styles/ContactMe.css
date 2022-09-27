@@ -1,11 +1,28 @@
-.ant-btn {
-    margin-right: 8px;
-  }
 
   .ContactMeDiv{
-    background-color: rgb(126, 246, 234);
+    height: auto;
+    width: auto;
   }
-  .ContactMeForm{
-    height: 35px;
-    width: 45%;
+  .ContactInputDiv{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .ContactInputDiv2{
+    height: 32px;
+    width: 41%;
+    margin-left: 5px;
+    border-radius: 10px;
+    border-color: aqua;
+    border: 5px #fff;
+  }
+  .ContactInput{
+    height: 30px;
+    margin-left: 0px;
+    border-radius: 10px;
+    background-color: transparent;
+    border-color: transparent;
+    border: 0ch;
   }
