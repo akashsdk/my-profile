@@ -16,6 +16,8 @@ import { Link, } from "react-router-dom";
 const { Header, Footer, Sider, Content } = Layout;
 
 export default function Home() {
+  const [page, setPage] = React.useState(1)
+
 
   return (
 
@@ -136,6 +138,7 @@ export default function Home() {
           <p>I like to smell the wind coming from the ocean.</p>
           <p>I like to look at the clouds in the sky with a blank mind,</p>
           <p>I like to do thought experiment when I cannot sleep in the middle of the night.</p>
+          <div className='HomeLayoutLine'></div>
 
 
         </div>
@@ -175,7 +178,6 @@ export default function Home() {
         </div>
 
       </Layout>
-      <div className='HomeLayoutLine'></div>
 
       <Layout>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'row', marginTop: '20px' }}>
@@ -183,26 +185,30 @@ export default function Home() {
             Experience
           </button>
           <div className='HomeExpLine' />
-          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', background: 'transparent', border: 'hide', marginLeft: '10px' }}>
+          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', background: 'transparent', border: 'hide', }}>
             Education
           </button>
           <div className='HomeExpLine' />
-          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', background: 'transparent', border: 'hide', marginLeft: '10px' }}>
+          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', background: 'transparent', border: 'hide', }}>
             Skills
           </button>
         </div>
-        {/* Experience */}
+        <div className='HomeLayoutLine2'></div>
+
         <div className='HomeExpBox'>
-          Experience
+          {
+            page == 1 ? (
+              <p >Experience </p>
+            ) : page == 2 ? (
+              <p >Education</p>
+            ) : page == 3 ? (
+              <p >Skills</p>
+            ) : (
+              <p >Error</p>
+            )
+          }
         </div>
-        {/* Education */}
-        <div className='HomeExpBox'>
-          Education
-        </div>
-        {/* Skills */}
-        <div className='HomeExpBox'>
-          Skills
-        </div>
+
       </Layout>
     </Layout>
 
