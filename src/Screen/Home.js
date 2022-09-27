@@ -16,7 +16,11 @@ import { Link, } from "react-router-dom";
 const { Header, Footer, Sider, Content } = Layout;
 
 export default function Home() {
-  const [page, setPage] = React.useState(1)
+  const [page, setPage] = useState(1)
+  const [hide, setHide] = useState(false)
+  const setHide1 = () => {
+    
+  };
 
 
   return (
@@ -181,19 +185,19 @@ export default function Home() {
 
       <Layout>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'row', marginTop: '20px' }}>
-          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', background: 'transparent', border: 'hide', }}>
+          <button onClick={setHide}
+          style={{ color: hide ? 'rgb(237, 158, 38)' :'#fff', fontSize: '40px', background: 'transparent', border: 'hide', }}>
             Experience
           </button>
           <div className='HomeExpLine' />
-          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', background: 'transparent', border: 'hide', }}>
+          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', background: 'transparent', border: 'hide', marginLeft:'10px' }}>
             Education
           </button>
           <div className='HomeExpLine' />
-          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', background: 'transparent', border: 'hide', }}>
+          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', background: 'transparent', border: 'hide',marginLeft:'10px'  }}>
             Skills
           </button>
         </div>
-        <div className='HomeLayoutLine2'></div>
 
         <div className='HomeExpBox'>
           {
@@ -204,7 +208,7 @@ export default function Home() {
             ) : page == 3 ? (
               <p >Skills</p>
             ) : (
-              <p >Error</p>
+              <></>
             )
           }
         </div>
