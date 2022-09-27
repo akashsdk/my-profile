@@ -85,7 +85,7 @@
 .HomeAboutDiv{
     display: flex;
     flex-direction: row;
-    margin-left: 10px;
+    margin-left: 30px;
     margin-top: -10px;
 }
 .HomeAboutDivH1{
