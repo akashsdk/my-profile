@@ -10,7 +10,7 @@ import {
   LinkedinOutlined, GoogleOutlined, TwitterOutlined,
   WhatsAppOutlined
 } from '@ant-design/icons';
-import {  Link, } from "react-router-dom";
+import { Link, } from "react-router-dom";
 
 
 const { Header, Footer, Sider, Content } = Layout;
@@ -74,7 +74,7 @@ export default function Home() {
 
       <Layout className='HomeLayout'>
         <div style={{ flex: 1, flexDirection: 'row', }}>
-          <h1 style={{ color: 'aqua'}}>me.!</h1>
+          <h1 style={{ color: 'aqua' }}>me.!</h1>
           <p>A passionate Full Stack Software Developer,</p>
           <p> having an experience of building Web and Mobile applications </p>
           <p>with JavaScript / Reactjs / React Native / Nodejs and </p>
@@ -120,7 +120,61 @@ export default function Home() {
           <img src={img} className='HomeLayoutImg'></img>
         </div>
       </Layout>
+      <h1 style={{ color: 'aqua', marginTop:'15px'}}>ABOUT ME</h1>
 
+      <Layout className='HomeLayout'>
+        <div style={{ flex: 1,marginTop:'50px' }}>
+          
+
+          <div className='HomeAboutDiv'>
+            <h1 className='HomeAboutDivH1'>Name:</h1>
+            <h1 className='HomeAboutDivH2'>Tasnim Shahriar Akash</h1>
+          </div>
+
+          <div className='HomeAboutDiv'>
+            <h1 className='HomeAboutDivH1'>BIRTHDAY:</h1>
+            <h1 className='HomeAboutDivH2'>03 Mar 2000</h1>
+          </div>
+
+          <div className='HomeAboutDiv'>
+            <h1 className='HomeAboutDivH1'>AGE:</h1>
+            <h1 className='HomeAboutDivH2'>22 years</h1>
+          </div>
+
+          <div className='HomeAboutDiv'>
+            <h1 className='HomeAboutDivH1'>ADDRESS:</h1>
+            <h1 className='HomeAboutDivH2'>AshuliaModelTown, Saver, Dhaka</h1>
+          </div>
+
+          <div className='HomeAboutDiv'>
+            <h1 className='HomeAboutDivH1'>PHOME:</h1>
+            <h1 className='HomeAboutDivH2'>(+88) 01580-233165</h1>
+          </div>
+
+          <div className='HomeAboutDiv'>
+            <h1 className='HomeAboutDivH1'>EMAIL:</h1>
+            <h1 className='HomeAboutDivH2'>tasnimshahriarakash@gmail.com</h1>
+          </div>
+        </div>
+
+        <div style={{ flex: 1, flexDirection: 'row', }}>
+
+          <p style={{ color: 'rgb(237, 158, 38)', fontSize: '50px' }}>Biography</p>
+          <div className='HomeLayoutLine2'></div>
+
+
+          <p>Am a person who is positive about every aspect of life.</p>
+          <p> There are many things I like to do, to see, and to experience. </p>
+          <p>I like to read, I like to write; I like to think, I like to dream; I like to talk, I like to listen. </p>
+          <p>I like to smell the wind coming from the ocean.</p>
+          <p>I like to look at the clouds in the sky with a blank mind,</p>
+          <p>I like to do thought experiment when I cannot sleep in the middle of the night.</p>
+          <div className='HomeLayoutLine'></div>
+
+
+        </div>
+
+      </Layout>
 
     </Layout>
 
