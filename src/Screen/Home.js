@@ -178,15 +178,28 @@ export default function Home() {
       </Layout>
 
       <Layout>
-        <div style={{display:'flex', justifyContent:'center',alignItems:'center',flexDirection:'row'}}>
-          <p style={{ color: 'rgb(237, 158, 38)', fontSize: '40px' }}>Experience</p>
-          <div className='HomeExpLine'/>
-          <p style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', marginLeft:'10px' }}>Education</p>
-          <div className='HomeExpLine'/>
-          <p style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', marginLeft:'10px'}}>Skills</p>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'row', marginTop:'20px'}}>
+          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px',background:'transparent',border:'hide',}}>
+          Experience
+          </button>
+          <div className='HomeExpLine' />
+          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px',background:'transparent',border:'hide', marginLeft:'10px'}}>
+          Education
+          </button>
+          <div className='HomeExpLine' />
+          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px',background:'transparent',border:'hide', marginLeft:'10px' }}>
+          Skills
+          </button>
         </div>
-        <div className='HomeLayoutLine2'></div>
-
+        {/* Experience */}
+        <div className='HomeExpBox'>
+          Experience
+        </div>
+        {/* Education */}
+        <div className='HomeExpBox'>
+          Education
+        </div>
+        {/* Skills */}
         <div className='HomeExpBox'>
           Skills
         </div>
