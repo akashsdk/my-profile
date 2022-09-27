@@ -97,3 +97,16 @@
     font-family: initial;
 }
 
+
+
+.HomeExpLine{
+    height: 1.5px;
+    width: 40px;
+    background-color: bisque;
+    margin-left: 10px;
+    opacity: .4;
+}
+.HomeExpBox{
+    background-color: rgb(33, 33, 34);
+    margin: 10%;
+}

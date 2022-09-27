@@ -120,10 +120,10 @@ export default function Home() {
           <img src={img} className='HomeLayoutImg'></img>
         </div>
       </Layout>
-      <h1 style={{ color: 'aqua', marginTop:'15px'}}>ABOUT ME</h1>
+      <h1 style={{ color: 'aqua', marginTop: '15px' }}>ABOUT ME</h1>
 
       <Layout className='HomeLayout'>
-        
+
         <div style={{ flex: 1, flexDirection: 'row', }}>
 
           <p style={{ color: 'rgb(237, 158, 38)', fontSize: '50px' }}>Biography</p>
@@ -141,11 +141,11 @@ export default function Home() {
 
         </div>
 
-        <div style={{ flex: 1,marginTop:'50px' }}>
-          
+        <div style={{ flex: 1, marginTop: '50px' }}>
+
 
           <div className='HomeAboutDiv'>
-            <h1 className='HomeAboutDivH1'>Name:</h1>
+            <h1 className='HomeAboutDivH1'>NAME:</h1>
             <h1 className='HomeAboutDivH2'>Tasnim Shahriar Akash</h1>
           </div>
 
@@ -165,7 +165,7 @@ export default function Home() {
           </div>
 
           <div className='HomeAboutDiv'>
-            <h1 className='HomeAboutDivH1'>PHOME:</h1>
+            <h1 className='HomeAboutDivH1'>PHONE:</h1>
             <h1 className='HomeAboutDivH2'>(+88) 01580-233165</h1>
           </div>
 
@@ -178,7 +178,18 @@ export default function Home() {
       </Layout>
 
       <Layout>
-        
+        <div style={{display:'flex', justifyContent:'center',alignItems:'center',flexDirection:'row'}}>
+          <p style={{ color: 'rgb(237, 158, 38)', fontSize: '40px' }}>Experience</p>
+          <div className='HomeExpLine'/>
+          <p style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', marginLeft:'10px' }}>Education</p>
+          <div className='HomeExpLine'/>
+          <p style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', marginLeft:'10px'}}>Skills</p>
+        </div>
+        <div className='HomeLayoutLine2'></div>
+
+        <div className='HomeExpBox'>
+          Skills
+        </div>
       </Layout>
     </Layout>
 
