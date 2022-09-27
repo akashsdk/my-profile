@@ -123,6 +123,24 @@ export default function Home() {
       <h1 style={{ color: 'aqua', marginTop:'15px'}}>ABOUT ME</h1>
 
       <Layout className='HomeLayout'>
+        
+        <div style={{ flex: 1, flexDirection: 'row', }}>
+
+          <p style={{ color: 'rgb(237, 158, 38)', fontSize: '50px' }}>Biography</p>
+          <div className='HomeLayoutLine2'></div>
+
+
+          <p>Am a person who is positive about every aspect of life.</p>
+          <p> There are many things I like to do, to see, and to experience. </p>
+          <p>I like to read, I like to write; I like to think, I like to dream; I like to talk, I like to listen. </p>
+          <p>I like to smell the wind coming from the ocean.</p>
+          <p>I like to look at the clouds in the sky with a blank mind,</p>
+          <p>I like to do thought experiment when I cannot sleep in the middle of the night.</p>
+          <div className='HomeLayoutLine'></div>
+
+
+        </div>
+
         <div style={{ flex: 1,marginTop:'50px' }}>
           
 
@@ -157,25 +175,11 @@ export default function Home() {
           </div>
         </div>
 
-        <div style={{ flex: 1, flexDirection: 'row', }}>
-
-          <p style={{ color: 'rgb(237, 158, 38)', fontSize: '50px' }}>Biography</p>
-          <div className='HomeLayoutLine2'></div>
-
-
-          <p>Am a person who is positive about every aspect of life.</p>
-          <p> There are many things I like to do, to see, and to experience. </p>
-          <p>I like to read, I like to write; I like to think, I like to dream; I like to talk, I like to listen. </p>
-          <p>I like to smell the wind coming from the ocean.</p>
-          <p>I like to look at the clouds in the sky with a blank mind,</p>
-          <p>I like to do thought experiment when I cannot sleep in the middle of the night.</p>
-          <div className='HomeLayoutLine'></div>
-
-
-        </div>
-
       </Layout>
 
+      <Layout>
+        
+      </Layout>
     </Layout>
 
 
