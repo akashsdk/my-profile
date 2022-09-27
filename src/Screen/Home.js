@@ -73,7 +73,7 @@ export default function Home() {
 
       <Layout className='HomeLayout'>
         <div style={{ flex: 1, flexDirection: 'row', }}>
-          <h1>me.!</h1>
+          <h1 style={{ color: 'aqua'}}>me.!</h1>
           <p>A passionate Full Stack Software Developer,</p>
           <p> having an experience of building Web and Mobile applications </p>
           <p>with JavaScript / Reactjs / React Native / Nodejs and </p>

@@ -52,6 +52,10 @@
     margin-left: 10px;
     border-radius: 10px;
     margin-top: 10px;
+    color: aqua;
+}
+.HomeLayoutButton:hover{
+    color: #fff;
 }
 
 .HomeLayoutIcon:hover{
@@ -64,7 +68,7 @@
     margin-left: 10px;
     border-radius: 2.5px;
     background-color: transparent;
-    color: rgb(15, 7, 233);
+    color: rgb(15, 104, 98);
 }
 .HomeLayoutButton2:hover{
     color: #fff;
