@@ -201,10 +201,42 @@ export default function Home() {
 
         <div className='HomeExpBox'>
           {
-            page == 1 ? (
+            page == 2 ? (
               <p >Experience </p>
-            ) : page == 2 ? (
-              <p >Education</p>
+            ) : page == 1 ? (
+              <div>
+                <div style={{
+                  backgroundColor:'black',
+                  margin:'20px',
+                  marginTop:'30px',
+                  borderRadius:'10px',
+                }}>
+                  <p style={{display:'flex',
+                  flexDirection:'row',
+                  justifyContent:'center',
+                  alignItems:'center',
+                  fontSize:'30px',
+                  }}>Computer Science Engineering <p style={{opacity:'.4', marginLeft:'20px',}}>2019-2022</p></p>
+                  <p style={{fontSize:'25px', opacity:'.6', marginTop:'-50px'}}>Daffodil International University, Dhaka</p>
+                  <p style={{fontSize:'20px', marginTop:'-20px'}}>Average CGPA-3.16</p>
+                </div>
+
+                <div style={{
+                  backgroundColor:'black',
+                  margin:'20px',
+                  marginTop:'30px',
+                  borderRadius:'10px',
+                }}>
+                  <p style={{display:'flex',
+                  flexDirection:'row',
+                  justifyContent:'center',
+                  alignItems:'center',
+                  fontSize:'20px',
+                  }}>Computer Science Engineering <p style={{opacity:'.4', marginLeft:'20px',}}>2019-2022</p></p>
+                  <p >Daffodil International University, Dhaka</p>
+                  <p>Average CGPA-3.16</p>
+                </div>
+              </div>
             ) : page == 3 ? (
               <p >Skills</p>
             ) : (
