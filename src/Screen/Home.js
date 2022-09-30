@@ -7,6 +7,7 @@ import { Col, Row, Layout, Button, Radio } from 'antd';
 import img from "../Image/on-desk.png";
 import Contact from "./ContactMe";
 import Slider from '../Components/Slider';
+import Resume from './Resume.js'
 import {
   DownloadOutlined, GithubOutlined, FacebookOutlined,
   LinkedinOutlined, GoogleOutlined, TwitterOutlined,
@@ -521,9 +522,26 @@ export default function Home() {
         </div>
       </Layout>
 
+      {/* SERVICES */}
+      <h1 style={{ color: 'aqua', marginTop: '65px' }}>SERVICES</h1>
+      <Layout>
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          <p style={{ color: 'rgb(237, 158, 38)', fontSize: '50px', marginLeft: '20px', marginTop: '0px' }}>What I Do</p>
+          <div className='HomeLayoutLine2'></div>
+          <div style={{ margin: '50px' }}>
+            <p style={{ fontSize: '25px', opacity: '0.6', marginTop: '-20px' }}>
+            I help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers and growing overall sales.
+            </p>
+          </div>
+        </div>
+      </Layout>
+
+
       <Layout>
         <Slider />
       </Layout>
+
+      
 
       {/* Project */}
       <h1 style={{ color: 'aqua', marginTop: '65px' }}>PROJECTS</h1>
@@ -671,6 +689,7 @@ export default function Home() {
         </div>
       </Layout>
 
+
       {/* CONTACT */}
       <h1 style={{ color: 'aqua', marginTop: '65px' }}>CONTACT</h1>
       <Layout>
@@ -684,6 +703,16 @@ export default function Home() {
         </div>
       </Layout>
 
+      {/* RESUME */}
+      <h1 style={{ color: 'aqua', marginTop: '65px' }}>RESUME</h1>
+      <Layout>
+        <Resume />
+      </Layout>
+
+      {/* Footer Line */}
+      <Layout>
+        <div>line</div>
+      </Layout>
 
     </Layout>
 
