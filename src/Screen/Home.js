@@ -205,10 +205,11 @@ export default function Home() {
               <p >Experience </p>
             ) : page == 1 ? (
               <div>
+                <div style={{display:'flex'}} />
+
                 <div style={{
-                  backgroundColor:'black',
+                  backgroundColor:'rgb(24, 23, 23)',
                   margin:'20px',
-                  marginTop:'30px',
                   borderRadius:'10px',
                 }}>
                   <p style={{display:'flex',
@@ -218,11 +219,11 @@ export default function Home() {
                   fontSize:'30px',
                   }}>Computer Science Engineering <p style={{opacity:'.4', marginLeft:'20px',}}>2019-2022</p></p>
                   <p style={{fontSize:'25px', opacity:'.6', marginTop:'-50px'}}>Daffodil International University, Dhaka</p>
-                  <p style={{fontSize:'20px', marginTop:'-20px'}}>Average CGPA-3.16</p>
+                  <p style={{fontSize:'20px', marginTop:'-20px', opacity:'0.7'}}>Average CGPA-3.16</p>
                 </div>
 
                 <div style={{
-                  backgroundColor:'black',
+                  backgroundColor:'rgb(24, 23, 23)',
                   margin:'20px',
                   marginTop:'30px',
                   borderRadius:'10px',
@@ -231,11 +232,30 @@ export default function Home() {
                   flexDirection:'row',
                   justifyContent:'center',
                   alignItems:'center',
-                  fontSize:'20px',
-                  }}>Computer Science Engineering <p style={{opacity:'.4', marginLeft:'20px',}}>2019-2022</p></p>
-                  <p >Daffodil International University, Dhaka</p>
-                  <p>Average CGPA-3.16</p>
+                  fontSize:'30px',
+                  }}>Higher Secondary School Certificate <p style={{opacity:'.4', marginLeft:'20px',}}>2019-2022</p></p>
+                  <p style={{fontSize:'25px', opacity:'.6', marginTop:'-50px'}}>Dhaka College , Dhaka</p>
+                  <p style={{fontSize:'20px', marginTop:'-20px', opacity:'0.7'}}>Average GPA-3.46</p>
                 </div>
+
+
+                <div style={{
+                  backgroundColor:'rgb(24, 23, 23)',
+                  margin:'20px',
+                  marginTop:'30px',
+                  borderRadius:'10px',
+                  marginBottom:'10px',
+                }}>
+                  <p style={{display:'flex',
+                  flexDirection:'row',
+                  justifyContent:'center',
+                  alignItems:'center',
+                  fontSize:'30px',
+                  }}>Secondary School Certificate <p style={{opacity:'.4', marginLeft:'20px',}}>2019-2022</p></p>
+                  <p style={{fontSize:'25px', opacity:'.6', marginTop:'-50px'}}>Lahini Secondary School, Kushtia</p>
+                  <p style={{fontSize:'20px', marginTop:'-20px', opacity:'0.7'}}>Average GPA-4.56</p>
+                </div>
+                <div style={{display:'flex'}} />
               </div>
             ) : page == 3 ? (
               <p >Skills</p>
