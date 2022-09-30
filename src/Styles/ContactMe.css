@@ -1,28 +1,4 @@
-
-  .ContactMeDiv{
-    height: auto;
-    width: auto;
-  }
-  .ContactInputDiv{
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .ContactInputDiv2{
-    height: 32px;
-    width: 41%;
-    margin-left: 5px;
-    border-radius: 10px;
-    border-color: aqua;
-    border: 5px #fff;
-  }
-  .ContactInput{
-    height: 30px;
-    margin-left: 0px;
-    border-radius: 10px;
-    background-color: transparent;
-    border-color: transparent;
-    border: 0ch;
-  }
+.ContactMeDiv {
+  height: auto;
+  width: auto;
+}

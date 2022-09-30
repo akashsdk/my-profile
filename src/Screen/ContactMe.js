@@ -10,7 +10,7 @@ export default function ContactMe() {
     return (
         <div>
             <div className='ContactMeDiv'>
-                
+                <Input placeholder="Basic usage" />
             </div>
         </div>
     )
