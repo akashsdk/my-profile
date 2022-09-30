@@ -526,7 +526,7 @@ export default function Home() {
       <h1 style={{ color: 'aqua', marginTop: '65px' }}>SERVICES</h1>
       <Layout>
         <div style={{ display: 'flex', flexDirection: 'column' }}>
-          <p style={{ color: 'rgb(237, 158, 38)', fontSize: '50px', marginLeft: '20px', marginTop: '0px' }}>What I Do</p>
+          <p style={{ color: 'rgb(237, 158, 38)', fontSize: '50px', marginLeft: '20px', marginTop: '0px' }}>What I Do!</p>
           <div className='HomeLayoutLine2'></div>
           <div style={{ margin: '50px' }}>
             <p style={{ fontSize: '25px', opacity: '0.6', marginTop: '-20px' }}>
