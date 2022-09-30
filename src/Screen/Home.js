@@ -202,8 +202,12 @@ export default function Home() {
         <div className='HomeExpBox'>
           {
             page == 2 ? (
+              // Experience
+              <div>
               <p >Experience </p>
+              </div>
             ) : page == 2 ? (
+              // Education
               <div>
                 <div style={{ display: 'flex' }} />
 
@@ -233,7 +237,7 @@ export default function Home() {
                     justifyContent: 'center',
                     alignItems: 'center',
                     fontSize: '30px',
-                  }}>Higher Secondary School Certificate <p style={{ opacity: '.4', marginLeft: '20px', }}>2019-2022</p></p>
+                  }}>Higher Secondary School Certificate <p style={{ opacity: '.4', marginLeft: '20px', }}>2017-2018</p></p>
                   <p style={{ fontSize: '25px', opacity: '.6', marginTop: '-50px' }}>Dhaka College , Dhaka</p>
                   <p style={{ fontSize: '20px', marginTop: '-20px', opacity: '0.7' }}>Average GPA-3.46</p>
                 </div>
@@ -250,23 +254,260 @@ export default function Home() {
                     justifyContent: 'center',
                     alignItems: 'center',
                     fontSize: '30px',
-                  }}>Secondary School Certificate <p style={{ opacity: '.4', marginLeft: '20px', }}>2019-2022</p></p>
+                  }}>Secondary School Certificate <p style={{ opacity: '.4', marginLeft: '20px', }}>2015-2016</p></p>
                   <p style={{ fontSize: '25px', opacity: '.6', marginTop: '-50px' }}>Lahini Secondary School, Kushtia</p>
                   <p style={{ fontSize: '20px', marginTop: '-20px', opacity: '0.7' }}>Average GPA-4.56</p>
                 </div>
                 <div style={{ display: 'flex', }} />
               </div>
             ) : page == 1 ? (
+              // Skills
               <div>
-                <div style={{ display: 'flex', flexDirection: 'column', marginLeft: '-50%' }}>
+                {/* Programming Language */}
+                <div style={{ display: 'flex', flexDirection: 'column',}}>
                   <p style={{
-                    fontSize: '30px', fontFamily: 'initial', color: 'aqua',
+                    fontSize: '30px', fontFamily: 'initial', color: 'aqua',marginLeft:'-40%'
                   }}>Programming Language</p>
-                  <div >
+                  <div style={{display:'flex',}}>
                     <p style={{
-                      fontSize: '20px', fontFamily: 'initial', color: 'rgb(237, 158, 38)',
-                    }}>Programming Language f</p>
+                      fontSize: '20px', fontFamily: 'initial', color: 'white', marginTop:'-10px',marginLeft:'20px',marginRight:'122px'
+                    }}> C</p>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound2'/>
+                    <div className='HomeExpRound2'/>
                   </div>
+
+                  <div style={{display:'flex',}}>
+                    <p style={{
+                      fontSize: '20px', fontFamily: 'initial', color: 'white', marginTop:'-10px',marginLeft:'20px',marginRight:'100px'
+                    }}> C++</p>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound2'/>
+                    <div className='HomeExpRound2'/>
+                    <div className='HomeExpRound2'/>
+                  </div>
+
+                  <div style={{display:'flex',}}>
+                    <p style={{
+                      fontSize: '20px', fontFamily: 'initial', color: 'white', marginTop:'-10px',marginLeft:'20px', marginRight:'52px'
+                    }}> JavaScript</p>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound2'/>
+                  </div>
+
+                  <div style={{display:'flex',}}>
+                    <p style={{
+                      fontSize: '20px', fontFamily: 'initial', color: 'white', marginTop:'-10px',marginLeft:'20px',marginRight:'79px'
+                    }}> HTML</p>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound2'/>
+                    <div className='HomeExpRound2'/>
+                  </div>
+
+                  <div style={{display:'flex',}}>
+                    <p style={{
+                      fontSize: '20px', fontFamily: 'initial', color: 'white', marginTop:'-10px',marginLeft:'20px',marginRight:'100px'
+                    }}> CSS</p>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound2'/>
+                  </div>
+                </div>
+
+                {/* React */}
+                <div style={{ display: 'flex', flexDirection: 'column',}}>
+                  <p style={{
+                    fontSize: '30px', fontFamily: 'initial', color: 'aqua',marginLeft:'-40%'
+                  }}>React</p>
+                  <div style={{display:'flex',}}>
+                    <p style={{
+                      fontSize: '20px', fontFamily: 'initial', color: 'white', marginTop:'-10px',marginLeft:'20px',marginRight:'20px'
+                    }}> React Routing</p>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                  </div>
+
+                  <div style={{display:'flex',}}>
+                    <p style={{
+                      fontSize: '20px', fontFamily: 'initial', color: 'white', marginTop:'-10px',marginLeft:'20px',marginRight:'42px'
+                    }}> Material UI <br></br> Design</p>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                  </div>
+
+                  <div style={{display:'flex',}}>
+                    <p style={{
+                      fontSize: '20px', fontFamily: 'initial', color: 'white', marginTop:'-10px',marginLeft:'20px', marginRight:'35px',
+                    }}> JSX element</p>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound2'/>
+                    <div className='HomeExpRound2'/>
+                  </div>
+
+                  <div style={{display:'flex',}}>
+                    <p style={{
+                      fontSize: '20px', fontFamily: 'initial', color: 'white', marginTop:'-10px',marginLeft:'20px',marginRight:'20px'
+                    }}> Bootstrap CSS</p>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound2'/>
+                    <div className='HomeExpRound2'/>
+                  </div>
+                </div>
+
+                {/* React Native */}
+                <div style={{ display: 'flex', flexDirection: 'column',}}>
+                  <p style={{
+                    fontSize: '30px', fontFamily: 'initial', color: 'aqua',marginLeft:'-40%'
+                  }}>React Native</p>
+                  <div style={{display:'flex',}}>
+                    <p style={{
+                      fontSize: '20px', fontFamily: 'initial', color: 'white', marginTop:'-10px',marginLeft:'20px',marginRight:'30px'
+                    }}> Front End <br></br> Development</p>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound2'/>
+                  </div>
+
+                  <div style={{display:'flex',}}>
+                    <p style={{
+                      fontSize: '20px', fontFamily: 'initial', color: 'white', marginTop:'-10px',marginLeft:'20px',marginRight:'32px'
+                    }}> Back End <br></br> Development</p>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound2'/>
+                    <div className='HomeExpRound2'/>
+                  </div>
+                </div>
+
+                {/* Node JS */}
+                <div style={{ display: 'flex', flexDirection: 'column',}}>
+                  <p style={{
+                    fontSize: '30px', fontFamily: 'initial', color: 'aqua',marginLeft:'-40%'
+                  }}>Node JS</p>
+                  <div style={{display:'flex',}}>
+                    <p style={{
+                      fontSize: '20px', fontFamily: 'initial', color: 'white', marginTop:'-10px',marginLeft:'20px',marginRight:'20px'
+                    }}> Firebase Admin <br></br> Development</p>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                  </div> 
+
+                  <div style={{display:'flex',}}>
+                    <p style={{
+                      fontSize: '20px', fontFamily: 'initial', color: 'white', marginTop:'-10px',marginLeft:'20px',marginRight:'55px'
+                    }}> Web socket </p>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound2'/>
+                    <div className='HomeExpRound2'/>
+                    <div className='HomeExpRound2'/>
+                  </div>
+
+                  <div style={{display:'flex',}}>
+                    <p style={{
+                      fontSize: '20px', fontFamily: 'initial', color: 'white', marginTop:'-10px',marginLeft:'20px',marginRight:'65px'
+                    }}> Modern <br></br> JavaScript</p>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound2'/>
+                    <div className='HomeExpRound2'/>
+                    <div className='HomeExpRound2'/>
+                  </div>
+                </div>
+
+                {/* Firebase */}
+                <div style={{ display: 'flex', flexDirection: 'column',}}>
+                  <p style={{
+                    fontSize: '30px', fontFamily: 'initial', color: 'aqua',marginLeft:'-40%'
+                  }}>Firebase</p>
+                  <div style={{display:'flex',}}>
+                    <p style={{
+                      fontSize: '20px', fontFamily: 'initial', color: 'white', marginTop:'-10px',marginLeft:'20px',marginRight:'30px'
+                    }}> Firebase <br></br> Authentication</p>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound2'/>
+                    <div className='HomeExpRound2'/>
+                  </div> 
+
+                  <div style={{display:'flex',}}>
+                    <p style={{
+                      fontSize: '20px', fontFamily: 'initial', color: 'white', marginTop:'-10px',marginLeft:'20px',marginRight:'72px'
+                    }}> Real time <br></br>database</p>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound2'/>
+                    <div className='HomeExpRound2'/>
+                  </div>
+
+                  <div style={{display:'flex',}}>
+                    <p style={{
+                      fontSize: '20px', fontFamily: 'initial', color: 'white', marginTop:'-10px',marginLeft:'20px',marginRight:'54px'
+                    }}> Notification</p>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound2'/>
+                    <div className='HomeExpRound2'/>
+                  </div>
+
+                  <div style={{display:'flex',}}>
+                    <p style={{
+                      fontSize: '20px', fontFamily: 'initial', color: 'white', marginTop:'-10px',marginLeft:'20px',marginRight:'27px'
+                    }}> Google Cloud <br/>API integration </p>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound2'/>
+                    <div className='HomeExpRound2'/>
+                  </div>
+                </div>
+
+                {/* IoT */}
+                <div style={{ display: 'flex', flexDirection: 'column',}}>
+                  <p style={{
+                    fontSize: '30px', fontFamily: 'initial', color: 'aqua',marginLeft:'-40%'
+                  }}>IoT</p>
+                  <div style={{display:'flex',}}>
+                    <p style={{
+                      fontSize: '20px', fontFamily: 'initial', color: 'white', marginTop:'-10px',marginLeft:'20px',marginRight:'35px'
+                    }}> Arduino board <br></br> Programming</p>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound'/>
+                    <div className='HomeExpRound2'/>
+                  </div> 
+
+                  
                 </div>
               </div>
             ) : (
@@ -274,7 +515,6 @@ export default function Home() {
             )
           }
         </div>
-
       </Layout>
     </Layout>
 

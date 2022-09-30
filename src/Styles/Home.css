@@ -111,3 +111,19 @@
     margin: 10%;
     border-radius: 10px;
 }
+.HomeExpRound{
+    height: 18px;
+    width: 18px;
+    border-radius: 9px;
+    background-color: rgb(237, 158, 38);
+    margin-left: 10px;
+    margin-top: -7px;
+}
+.HomeExpRound2{
+    height: 18px;
+    width: 18px;
+    border-radius: 9px;
+    background-color: rgb(84, 71, 52);
+    margin-left: 10px;
+    margin-top: -7px;
+}
