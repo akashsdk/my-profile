@@ -6,6 +6,7 @@ import AnimatedText from 'react-animated-text-content';
 import { Col, Row, Layout, Button, Radio } from 'antd';
 import img from "../Image/on-desk.png";
 import Contact from "./ContactMe";
+import Slider from '../Components/Slider';
 import {
   DownloadOutlined, GithubOutlined, FacebookOutlined,
   LinkedinOutlined, GoogleOutlined, TwitterOutlined,
@@ -80,6 +81,7 @@ export default function Home() {
       </Row>
 
       <Layout className='HomeLayout'>
+        
         <div style={{ flex: 1, flexDirection: 'row', }}>
           <h1 style={{ color: 'aqua' }}>me.!</h1>
           <p>A passionate Full Stack Software Developer,</p>
@@ -521,7 +523,7 @@ export default function Home() {
 
       {/* Project */}
       <Layout>
-        <div>Projects Slide</div>
+        <Slider/>
       </Layout>
 
       {/* CONTACT */}
