@@ -19,7 +19,7 @@ export default function Home() {
   const [page, setPage] = useState(1)
   const [hide, setHide] = useState(false)
   const setHide1 = () => {
-    
+
   };
 
 
@@ -186,15 +186,15 @@ export default function Home() {
       <Layout>
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'row', marginTop: '20px' }}>
           <button onClick={setHide}
-          style={{ color: hide ? 'rgb(237, 158, 38)' :'#fff', fontSize: '40px', background: 'transparent', border: 'hide', }}>
+            style={{ color: hide ? 'rgb(237, 158, 38)' : '#fff', fontSize: '40px', background: 'transparent', border: 'hide', }}>
             Experience
           </button>
           <div className='HomeExpLine' />
-          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', background: 'transparent', border: 'hide', marginLeft:'10px' }}>
+          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', background: 'transparent', border: 'hide', marginLeft: '10px' }}>
             Education
           </button>
           <div className='HomeExpLine' />
-          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', background: 'transparent', border: 'hide',marginLeft:'10px'  }}>
+          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', background: 'transparent', border: 'hide', marginLeft: '10px' }}>
             Skills
           </button>
         </div>
@@ -205,60 +205,67 @@ export default function Home() {
               <p >Experience </p>
             ) : page == 2 ? (
               <div>
-                <div style={{display:'flex'}} />
-                
+                <div style={{ display: 'flex' }} />
+
                 <div style={{
-                  backgroundColor:'rgb(24, 23, 23)',
-                  margin:'20px',
+                  backgroundColor: 'rgb(24, 23, 23)',
+                  margin: '20px',
                 }}>
-                  <p style={{display:'flex',
-                  flexDirection:'row',
-                  justifyContent:'center',
-                  alignItems:'center',
-                  fontSize:'30px',
-                  }}>Computer Science Engineering <p style={{opacity:'.4', marginLeft:'20px',}}>2019-2022</p></p>
-                  <p style={{fontSize:'25px', opacity:'.6', marginTop:'-50px'}}>Daffodil International University, Dhaka</p>
-                  <p style={{fontSize:'20px', marginTop:'-20px', opacity:'0.7'}}>Average CGPA-3.16</p>
+                  <p style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    fontSize: '30px',
+                  }}>Computer Science Engineering <p style={{ opacity: '.4', marginLeft: '20px', }}>2019-2022</p></p>
+                  <p style={{ fontSize: '25px', opacity: '.6', marginTop: '-50px' }}>Daffodil International University, Dhaka</p>
+                  <p style={{ fontSize: '20px', marginTop: '-20px', opacity: '0.7' }}>Average CGPA-3.16</p>
                 </div>
 
                 <div style={{
-                  backgroundColor:'rgb(24, 23, 23)',
-                  margin:'20px',
-                  marginTop:'30px',
+                  backgroundColor: 'rgb(24, 23, 23)',
+                  margin: '20px',
+                  marginTop: '30px',
                 }}>
-                  <p style={{display:'flex',
-                  flexDirection:'row',
-                  justifyContent:'center',
-                  alignItems:'center',
-                  fontSize:'30px',
-                  }}>Higher Secondary School Certificate <p style={{opacity:'.4', marginLeft:'20px',}}>2019-2022</p></p>
-                  <p style={{fontSize:'25px', opacity:'.6', marginTop:'-50px'}}>Dhaka College , Dhaka</p>
-                  <p style={{fontSize:'20px', marginTop:'-20px', opacity:'0.7'}}>Average GPA-3.46</p>
+                  <p style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    fontSize: '30px',
+                  }}>Higher Secondary School Certificate <p style={{ opacity: '.4', marginLeft: '20px', }}>2019-2022</p></p>
+                  <p style={{ fontSize: '25px', opacity: '.6', marginTop: '-50px' }}>Dhaka College , Dhaka</p>
+                  <p style={{ fontSize: '20px', marginTop: '-20px', opacity: '0.7' }}>Average GPA-3.46</p>
                 </div>
 
 
                 <div style={{
-                  backgroundColor:'rgb(24, 23, 23)',
-                  margin:'20px',
-                  marginTop:'30px',
+                  backgroundColor: 'rgb(24, 23, 23)',
+                  margin: '20px',
+                  marginTop: '30px',
                 }}>
-                  <p style={{display:'flex',
-                  flexDirection:'row',
-                  justifyContent:'center',
-                  alignItems:'center',
-                  fontSize:'30px',
-                  }}>Secondary School Certificate <p style={{opacity:'.4', marginLeft:'20px',}}>2019-2022</p></p>
-                  <p style={{fontSize:'25px', opacity:'.6', marginTop:'-50px'}}>Lahini Secondary School, Kushtia</p>
-                  <p style={{fontSize:'20px', marginTop:'-20px', opacity:'0.7'}}>Average GPA-4.56</p>
+                  <p style={{
+                    display: 'flex',
+                    flexDirection: 'row',
+                    justifyContent: 'center',
+                    alignItems: 'center',
+                    fontSize: '30px',
+                  }}>Secondary School Certificate <p style={{ opacity: '.4', marginLeft: '20px', }}>2019-2022</p></p>
+                  <p style={{ fontSize: '25px', opacity: '.6', marginTop: '-50px' }}>Lahini Secondary School, Kushtia</p>
+                  <p style={{ fontSize: '20px', marginTop: '-20px', opacity: '0.7' }}>Average GPA-4.56</p>
                 </div>
-                <div style={{display:'flex',}} />
+                <div style={{ display: 'flex', }} />
               </div>
             ) : page == 1 ? (
               <div>
-                <div style={{display:'flex',flexDirection:'column',marginLeft:'-50%'}}>
-                  <p style={{fontSize:'30px', fontFamily:'initial',color: 'aqua',}}>Programming Language</p>
-                  <div>
-                  <p style={{fontSize:'30px', fontFamily:'initial',color: 'rgb(237, 158, 38)'}}>Programming Language f</p>
+                <div style={{ display: 'flex', flexDirection: 'column', marginLeft: '-50%' }}>
+                  <p style={{
+                    fontSize: '30px', fontFamily: 'initial', color: 'aqua',
+                  }}>Programming Language</p>
+                  <div >
+                    <p style={{
+                      fontSize: '20px', fontFamily: 'initial', color: 'rgb(237, 158, 38)',
+                    }}>Programming Language f</p>
                   </div>
                 </div>
               </div>
