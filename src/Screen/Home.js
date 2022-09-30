@@ -203,14 +203,13 @@ export default function Home() {
           {
             page == 2 ? (
               <p >Experience </p>
-            ) : page == 1 ? (
+            ) : page == 2 ? (
               <div>
                 <div style={{display:'flex'}} />
-
+                
                 <div style={{
                   backgroundColor:'rgb(24, 23, 23)',
                   margin:'20px',
-                  borderRadius:'10px',
                 }}>
                   <p style={{display:'flex',
                   flexDirection:'row',
@@ -226,7 +225,6 @@ export default function Home() {
                   backgroundColor:'rgb(24, 23, 23)',
                   margin:'20px',
                   marginTop:'30px',
-                  borderRadius:'10px',
                 }}>
                   <p style={{display:'flex',
                   flexDirection:'row',
@@ -243,8 +241,6 @@ export default function Home() {
                   backgroundColor:'rgb(24, 23, 23)',
                   margin:'20px',
                   marginTop:'30px',
-                  borderRadius:'10px',
-                  marginBottom:'10px',
                 }}>
                   <p style={{display:'flex',
                   flexDirection:'row',
@@ -255,10 +251,17 @@ export default function Home() {
                   <p style={{fontSize:'25px', opacity:'.6', marginTop:'-50px'}}>Lahini Secondary School, Kushtia</p>
                   <p style={{fontSize:'20px', marginTop:'-20px', opacity:'0.7'}}>Average GPA-4.56</p>
                 </div>
-                <div style={{display:'flex'}} />
+                <div style={{display:'flex',}} />
               </div>
-            ) : page == 3 ? (
-              <p >Skills</p>
+            ) : page == 1 ? (
+              <div>
+                <div style={{display:'flex',flexDirection:'column',marginLeft:'-50%'}}>
+                  <p style={{fontSize:'30px', fontFamily:'initial',color: 'aqua',}}>Programming Language</p>
+                  <div>
+                  <p style={{fontSize:'30px', fontFamily:'initial',color: 'rgb(237, 158, 38)'}}>Programming Language f</p>
+                  </div>
+                </div>
+              </div>
             ) : (
               <></>
             )
