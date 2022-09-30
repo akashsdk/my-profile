@@ -81,7 +81,7 @@ export default function Home() {
       </Row>
 
       <Layout className='HomeLayout'>
-        
+
         <div style={{ flex: 1, flexDirection: 'row', }}>
           <h1 style={{ color: 'aqua' }}>me.!</h1>
           <p>A passionate Full Stack Software Developer,</p>
@@ -521,19 +521,164 @@ export default function Home() {
         </div>
       </Layout>
 
-      {/* Project */}
       <Layout>
-        <Slider/>
+        <Slider />
+      </Layout>
+
+      {/* Project */}
+      <h1 style={{ color: 'aqua', marginTop: '65px' }}>PROJECTS</h1>
+      <Layout>
+        {/* EDU PLANET */}
+        <div style={{
+          backgroundColor: 'rgb(33, 33, 34)',
+          marginLeft: '30px',
+          marginRight: '30px',
+          display: 'flex',
+          flexDirection: 'row',
+        }}>
+          <div className='HomeExpRroBox1'></div>
+          <div className='HomeExpRroBox2'>
+            <div>
+              <p style={{color: 'rgb(237, 158, 38)', fontSize: '20px',}}>EDU PLANET</p>
+              <p style={{ fontSize: '35px', opacity:'.6', marginTop:'-15px',marginLeft:'5px' }}>Front End Developer</p>
+              <p style={{ fontSize: '18px', marginTop:'-25px' }}>Application </p>
+            </div>
+            <div style={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              marginLeft:'150px'
+            }}>
+              <p style={{ fontSize: '35px', opacity:'.6',  }}>2021</p>
+            </div>
+
+          </div>
+        </div>
+
+        {/* BUY NOW */}
+        <div style={{
+          backgroundColor: 'rgb(33, 33, 34)',
+          marginLeft: '30px',
+          marginRight: '30px',
+          display: 'flex',
+          flexDirection: 'row',
+          marginTop:'20px',
+        }}>
+          <div className='HomeExpRroBox1'></div>
+          <div className='HomeExpRroBox2'>
+            <div>
+              <p style={{color: 'rgb(237, 158, 38)', fontSize: '20px',}}>BUY NOW</p>
+              <p style={{ fontSize: '35px', opacity:'.6', marginTop:'-15px',marginLeft:'5px' }}>Front End Developer</p>
+              <p style={{ fontSize: '18px', marginTop:'-25px' }}>Application </p>
+            </div>
+            <div style={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              marginLeft:'150px'
+            }}>
+              <p style={{ fontSize: '35px', opacity:'.6',  }}>2021</p>
+            </div>
+
+          </div>
+        </div>
+
+
+        {/* SMIRA CLUB */}
+        <div style={{
+          backgroundColor: 'rgb(33, 33, 34)',
+          marginLeft: '30px',
+          marginRight: '30px',
+          display: 'flex',
+          flexDirection: 'row',
+          marginTop:'20px',
+        }}>
+          <div className='HomeExpRroBox1'></div>
+          <div className='HomeExpRroBox2'>
+            <div>
+              <p style={{color: 'rgb(237, 158, 38)', fontSize: '20px',}}>SMIRA CLUB FOR BOOKING HOTELS AND DEALS</p>
+              <p style={{ fontSize: '35px', opacity:'.6', marginTop:'-15px',marginLeft:'5px' }}>Front End Developer</p>
+              <p style={{ fontSize: '18px', marginTop:'-25px' }}>App and Web Application </p>
+            </div>
+            <div style={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              marginLeft:'150px'
+            }}>
+              <p style={{ fontSize: '35px', opacity:'.6',  }}>2022</p>
+            </div>
+
+          </div>
+        </div>
+
+
+        {/* STREET LIGHT */}
+        <div style={{
+          backgroundColor: 'rgb(33, 33, 34)',
+          marginLeft: '30px',
+          marginRight: '30px',
+          display: 'flex',
+          flexDirection: 'row',
+          marginTop:'20px',
+        }}>
+          <div className='HomeExpRroBox1'></div>
+          <div className='HomeExpRroBox2'>
+            <div>
+              <p style={{color: 'rgb(237, 158, 38)', fontSize: '20px',}}>IOT BASED SMART STREET LIGHT</p>
+              <p style={{ fontSize: '35px', opacity:'.6', marginTop:'-15px',marginLeft:'5px' }}>Front and Back End Developer</p>
+              <p style={{ fontSize: '18px', marginTop:'-25px' }}>IoT and Web Application </p>
+            </div>
+            <div style={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              marginLeft:'150px'
+            }}>
+              <p style={{ fontSize: '35px', opacity:'.6',  }}>2022</p>
+            </div>
+
+          </div>
+        </div>
+
+
+        {/* PET DOCTOR */}
+        <div style={{
+          backgroundColor: 'rgb(33, 33, 34)',
+          marginLeft: '30px',
+          marginRight: '30px',
+          display: 'flex',
+          flexDirection: 'row',
+          marginTop:'20px',
+        }}>
+          <div className='HomeExpRroBox1'></div>
+          <div className='HomeExpRroBox2'>
+            <div>
+              <p style={{color: 'rgb(237, 158, 38)', fontSize: '20px',}}>PET DOCTOR</p>
+              <p style={{ fontSize: '35px', opacity:'.6', marginTop:'-15px',marginLeft:'5px' }}>Front End Developer</p>
+              <p style={{ fontSize: '18px', marginTop:'-25px' }}>Application </p>
+            </div>
+            <div style={{
+              display: 'flex',
+              justifyContent: 'center',
+              alignItems: 'center',
+              marginLeft:'150px'
+            }}>
+              <p style={{ fontSize: '35px', opacity:'.6',  }}>2022</p>
+            </div>
+
+          </div>
+        </div>
       </Layout>
 
       {/* CONTACT */}
-      <h1 style={{ color: 'aqua', marginTop: '15px' }}>CONTACT</h1>
+      <h1 style={{ color: 'aqua', marginTop: '65px' }}>CONTACT</h1>
       <Layout>
-        <div style={{ display: 'flex', flexDirection:'column' }}>
-          <p style={{ color: 'rgb(237, 158, 38)', fontSize: '50px', marginLeft: '20px', marginTop:'0px'}}>Get In Touch</p>
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          <p style={{ color: 'rgb(237, 158, 38)', fontSize: '50px', marginLeft: '20px', marginTop: '0px' }}>Get In Touch</p>
           <div className='HomeLayoutLine2'></div>
-          <div style={{margin:'50px'}}>
-            <p style={{fontSize:'25px', opacity:'0.6', marginTop:'-20px'}}>If you have any suggestion, project or even you want to say “hello”, please fill out the form below and I will reply you shortly.</p>
+          <div style={{ margin: '50px' }}>
+            <p style={{ fontSize: '25px', opacity: '0.6', marginTop: '-20px' }}>If you have any suggestion, project or even you want to say “hello”, please fill out the form below and I will reply you shortly.</p>
           </div>
           <Contact />
         </div>
