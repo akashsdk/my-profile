@@ -146,3 +146,29 @@
 .HomeExpRroBox2{
     display: flex;
 }
+.HomeDowonLine{
+    background-color: bisque;
+    height: 1.5px;
+    width: 78%;
+    margin-top: 50px;
+}
+.HomeDowonLine1{
+    height: 50px;
+    width: 5%;
+    margin-left: 2%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.HomeDowonLine1:hover{
+    border: 1px solid bisque;
+}
+.HomeDowonLine2{
+    background-color: bisque;
+    height: 1.5px;
+    width: 13%;
+    margin-top: 50px;
+    margin-left: 2%;
+}

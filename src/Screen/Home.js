@@ -11,7 +11,7 @@ import Resume from './Resume.js'
 import {
   DownloadOutlined, GithubOutlined, FacebookOutlined,
   LinkedinOutlined, GoogleOutlined, TwitterOutlined,
-  WhatsAppOutlined
+  WhatsAppOutlined, ArrowUpOutlined,
 } from '@ant-design/icons';
 import { Link, } from "react-router-dom";
 
@@ -530,7 +530,7 @@ export default function Home() {
           <div className='HomeLayoutLine2'></div>
           <div style={{ margin: '50px' }}>
             <p style={{ fontSize: '25px', opacity: '0.6', marginTop: '-20px' }}>
-            I help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers and growing overall sales.
+              I help ambitious businesses like yours generate more profits by building awareness, driving web traffic, connecting with customers and growing overall sales.
             </p>
           </div>
         </div>
@@ -541,7 +541,7 @@ export default function Home() {
         <Slider />
       </Layout>
 
-      
+
 
       {/* Project */}
       <h1 style={{ color: 'aqua', marginTop: '65px' }}>PROJECTS</h1>
@@ -557,17 +557,17 @@ export default function Home() {
           <div className='HomeExpRroBox1'></div>
           <div className='HomeExpRroBox2'>
             <div>
-              <p style={{color: 'rgb(237, 158, 38)', fontSize: '20px',}}>EDU PLANET</p>
-              <p style={{ fontSize: '35px', opacity:'.6', marginTop:'-15px',marginLeft:'5px' }}>Front End Developer</p>
-              <p style={{ fontSize: '18px', marginTop:'-25px' }}>Application </p>
+              <p style={{ color: 'rgb(237, 158, 38)', fontSize: '20px', }}>EDU PLANET</p>
+              <p style={{ fontSize: '35px', opacity: '.6', marginTop: '-15px', marginLeft: '5px' }}>Front End Developer</p>
+              <p style={{ fontSize: '18px', marginTop: '-25px' }}>Application </p>
             </div>
             <div style={{
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
-              marginLeft:'150px'
+              marginLeft: '150px'
             }}>
-              <p style={{ fontSize: '35px', opacity:'.6',  }}>2021</p>
+              <p style={{ fontSize: '35px', opacity: '.6', }}>2021</p>
             </div>
 
           </div>
@@ -580,22 +580,22 @@ export default function Home() {
           marginRight: '30px',
           display: 'flex',
           flexDirection: 'row',
-          marginTop:'20px',
+          marginTop: '20px',
         }}>
           <div className='HomeExpRroBox1'></div>
           <div className='HomeExpRroBox2'>
             <div>
-              <p style={{color: 'rgb(237, 158, 38)', fontSize: '20px',}}>BUY NOW</p>
-              <p style={{ fontSize: '35px', opacity:'.6', marginTop:'-15px',marginLeft:'5px' }}>Front End Developer</p>
-              <p style={{ fontSize: '18px', marginTop:'-25px' }}>Application </p>
+              <p style={{ color: 'rgb(237, 158, 38)', fontSize: '20px', }}>BUY NOW</p>
+              <p style={{ fontSize: '35px', opacity: '.6', marginTop: '-15px', marginLeft: '5px' }}>Front End Developer</p>
+              <p style={{ fontSize: '18px', marginTop: '-25px' }}>Application </p>
             </div>
             <div style={{
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
-              marginLeft:'150px'
+              marginLeft: '150px'
             }}>
-              <p style={{ fontSize: '35px', opacity:'.6',  }}>2021</p>
+              <p style={{ fontSize: '35px', opacity: '.6', }}>2021</p>
             </div>
 
           </div>
@@ -609,22 +609,22 @@ export default function Home() {
           marginRight: '30px',
           display: 'flex',
           flexDirection: 'row',
-          marginTop:'20px',
+          marginTop: '20px',
         }}>
           <div className='HomeExpRroBox1'></div>
           <div className='HomeExpRroBox2'>
             <div>
-              <p style={{color: 'rgb(237, 158, 38)', fontSize: '20px',}}>SMIRA CLUB FOR BOOKING HOTELS AND DEALS</p>
-              <p style={{ fontSize: '35px', opacity:'.6', marginTop:'-15px',marginLeft:'5px' }}>Front End Developer</p>
-              <p style={{ fontSize: '18px', marginTop:'-25px' }}>App and Web Application </p>
+              <p style={{ color: 'rgb(237, 158, 38)', fontSize: '20px', }}>SMIRA CLUB FOR BOOKING HOTELS AND DEALS</p>
+              <p style={{ fontSize: '35px', opacity: '.6', marginTop: '-15px', marginLeft: '5px' }}>Front End Developer</p>
+              <p style={{ fontSize: '18px', marginTop: '-25px' }}>App and Web Application </p>
             </div>
             <div style={{
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
-              marginLeft:'150px'
+              marginLeft: '150px'
             }}>
-              <p style={{ fontSize: '35px', opacity:'.6',  }}>2022</p>
+              <p style={{ fontSize: '35px', opacity: '.6', }}>2022</p>
             </div>
 
           </div>
@@ -638,22 +638,22 @@ export default function Home() {
           marginRight: '30px',
           display: 'flex',
           flexDirection: 'row',
-          marginTop:'20px',
+          marginTop: '20px',
         }}>
           <div className='HomeExpRroBox1'></div>
           <div className='HomeExpRroBox2'>
             <div>
-              <p style={{color: 'rgb(237, 158, 38)', fontSize: '20px',}}>IOT BASED SMART STREET LIGHT</p>
-              <p style={{ fontSize: '35px', opacity:'.6', marginTop:'-15px',marginLeft:'5px' }}>Front and Back End Developer</p>
-              <p style={{ fontSize: '18px', marginTop:'-25px' }}>IoT and Web Application </p>
+              <p style={{ color: 'rgb(237, 158, 38)', fontSize: '20px', }}>IOT BASED SMART STREET LIGHT</p>
+              <p style={{ fontSize: '35px', opacity: '.6', marginTop: '-15px', marginLeft: '5px' }}>Front and Back End Developer</p>
+              <p style={{ fontSize: '18px', marginTop: '-25px' }}>IoT and Web Application </p>
             </div>
             <div style={{
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
-              marginLeft:'150px'
+              marginLeft: '150px'
             }}>
-              <p style={{ fontSize: '35px', opacity:'.6',  }}>2022</p>
+              <p style={{ fontSize: '35px', opacity: '.6', }}>2022</p>
             </div>
 
           </div>
@@ -667,22 +667,22 @@ export default function Home() {
           marginRight: '30px',
           display: 'flex',
           flexDirection: 'row',
-          marginTop:'20px',
+          marginTop: '20px',
         }}>
           <div className='HomeExpRroBox1'></div>
           <div className='HomeExpRroBox2'>
             <div>
-              <p style={{color: 'rgb(237, 158, 38)', fontSize: '20px',}}>PET DOCTOR</p>
-              <p style={{ fontSize: '35px', opacity:'.6', marginTop:'-15px',marginLeft:'5px' }}>Front End Developer</p>
-              <p style={{ fontSize: '18px', marginTop:'-25px' }}>Application </p>
+              <p style={{ color: 'rgb(237, 158, 38)', fontSize: '20px', }}>PET DOCTOR</p>
+              <p style={{ fontSize: '35px', opacity: '.6', marginTop: '-15px', marginLeft: '5px' }}>Front End Developer</p>
+              <p style={{ fontSize: '18px', marginTop: '-25px' }}>Application </p>
             </div>
             <div style={{
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
-              marginLeft:'150px'
+              marginLeft: '150px'
             }}>
-              <p style={{ fontSize: '35px', opacity:'.6',  }}>2022</p>
+              <p style={{ fontSize: '35px', opacity: '.6', }}>2022</p>
             </div>
 
           </div>
@@ -711,7 +711,13 @@ export default function Home() {
 
       {/* Footer Line */}
       <Layout>
-        <div>line</div>
+        <div style={{ display: 'flex', }}>
+          <div className='HomeDowonLine'></div>
+          <div className='HomeDowonLine1'>
+            <ArrowUpOutlined className='HomeDowonLineIcon' />
+          </div>
+          <div className='HomeDowonLine2'></div>
+        </div>
       </Layout>
 
     </Layout>
