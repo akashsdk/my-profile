@@ -1,58 +1,114 @@
-.contactBody{
+.ContactBody {
   height: auto;
   width: auto;
-}
-.contactDiv{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
-  margin: 20px;
-}
-.contactLeftDiv{
-  height: auto;
-  width: auto;
-}
-.contactLeftDivImg{
-  height: 400px;
-  width: 400px;
-}
-.contactRightDiv{
-  height: auto;
-  margin-left: 50px;
   align-items: center;
+  border: 1px solid rgb(74, 237, 38);
+  margin: 10%;
+  border-radius: 10px;
+}
 
-}
-.contactInputDiv{
+.ContactInputDiv {
   height: 40px;
+  width: 70%;
   border-radius: 20px;
   margin-top: 20px;
-  border: 1.5px solid rgba(0, 0, 0, 0.05);
-  border-color: rgb(158, 157, 157);
+  margin-bottom: 20px;
+  border: 1px solid rgb(237, 158, 38);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.contactInput{
+
+.ContactInputDiv:hover {
+  background-color: aliceblue;
+  border: 0px;
+}
+
+.ContactInputDiv1 {
+  height: 43px;
+  width: 70%;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContactInputDiv2 {
+  height: 40px;
+  width: 30%;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContactInputDivMess {
+  height: 150px;
+  width: 70%;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(237, 158, 38);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ContactInputDivMess:hover {
+  background-color: aliceblue;
+  border: 0px;
+}
+
+.ContactInput {
   height: auto;
   width: 90%;
-  background-color:transparent;
+  background-color: transparent;
   border-width: 1px;
   border-radius: 20px;
-  margin-top: 5px;
   border: none;
   outline: none;
 }
-.contactInputMegDiv{
-  height: 100px;
-  border-radius: 20px;
-  margin-top: 20px;
-  border: 1.5px solid rgba(0, 0, 0, 0.05);
-  border-color: rgb(158, 157, 157);
-}
-.contactInputMeg{
-  height: auto;
+
+.ContactInputMess {
+  height: 140px;
   width: 90%;
-  background-color:transparent;
+  background-color: transparent;
   border-width: 1px;
   border-radius: 20px;
-  margin-top: 5px;
   border: none;
   outline: none;
+}
+
+.ContactBottuntDiv {
+  height: 40px;
+  width: 70%;
+  background-color: transparent;
+  border-width: 1px;
+  border-radius: 20px;
+  margin-top: 20px;
+  border-color: rgb(237, 158, 38);
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.ContactBottuntDiv:hover {
+  background-color: #3fa46a;
+  border: none;
+}
+.ContactBottuntH1{
+  color: #fff;
+  font-size: 30px;
+}
+.ContactBottuntH1:hover{
+  color: rgb(0, 0, 0);
 }
