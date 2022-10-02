@@ -5,9 +5,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid rgb(74, 237, 38);
+  border: 1px solid aqua;
   margin: 10%;
   border-radius: 10px;
+  margin-top: -30px;
 }
 
 .ContactInputDiv {
@@ -102,7 +103,7 @@
 }
 
 .ContactBottuntDiv:hover {
-  background-color: #3fa46a;
+  background-color: aqua;
   border: none;
 }
 .ContactBottuntH1{
