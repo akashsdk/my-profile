@@ -154,8 +154,8 @@
 }
 .HomeDowonLine1{
     height: 50px;
-    width: 5%;
-    margin-left: 2%;
+    width: 6%;
+    margin-left: 1%;
     margin-top: 25px;
     display: flex;
     justify-content: center;
@@ -176,7 +176,7 @@
 .HomeDowonLine2{
     background-color: bisque;
     height: 1.5px;
-    width: 13%;
+    width: 14%;
     margin-top: 50px;
-    margin-left: 2%;
+    margin-left: 1%;
 }

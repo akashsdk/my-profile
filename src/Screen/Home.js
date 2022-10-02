@@ -714,7 +714,9 @@ export default function Home() {
         <div style={{ display: 'flex', }}>
           <div className='HomeDowonLine'></div>
           <div className='HomeDowonLine1'>
-            <ArrowUpOutlined className='HomeDowonLineIcon' />
+            <a href="" target="ContactMe">
+              <ArrowUpOutlined className='HomeDowonLineIcon' />
+            </a>
           </div>
           <div className='HomeDowonLine2'></div>
         </div>
