@@ -1,32 +1,9 @@
 .HeaderBody{
-    background-color: rgb(8, 29, 29);
-    box-shadow: 0 2px 2px 0 rgba(255, 255, 255, 0.613), 0 6px 20px 0 rgba(255, 255, 255, 0.19);
-
+    height: auto;
+    width: auto;
+    background-color: rgb(24, 23, 23);
 }
-.link-1 {
-    transition: 0.3s ease;
-    background: #000000;
-    color: #ffffff;
-    font-size: 20px;
-    text-decoration: none;
-    border-top: 2px solid #ffffff;
-    border-bottom: 2px solid #ffffff;
-    padding: 5px 0;
-    margin: 0 40px;
-}
-
-.link-1:hover {
-    border-top: .5px solid #ffffff;
-    border-bottom: .5px solid #ffffff;
-    padding: 0px 0;
-}
-.HeaderDiv{
-    height: 40px;
-    background-color: rgb(0, 0, 0);
-    margin-bottom: 30px;
-
-}
-.HeaderBodyDiv{
-    height: 15px;
-    background-color: rgb(0, 0, 0);
+.HeaderDownDiv{
+    height: 50px;
+    width: 100%;
 }
