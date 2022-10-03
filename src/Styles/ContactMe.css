@@ -106,10 +106,20 @@
   background-color: aqua;
   border: none;
 }
-.ContactBottuntH1{
+
+.ContactBottuntH1 {
   color: #fff;
   font-size: 30px;
 }
-.ContactBottuntH1:hover{
+
+.ContactBottuntH1:hover {
   color: rgb(0, 0, 0);
+}
+
+.ContactInputSelect {
+  border: 1px solid rgb(237, 158, 38);
+  color: rgb(237, 158, 38);
+  padding: 20;
+  background-color: transparent;
+  transition: 'opacity 300ms';
 }

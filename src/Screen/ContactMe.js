@@ -4,9 +4,9 @@ import '../Styles/ContactMe.css';
 import Select from 'react-select'
 
 const options = [
-  { value: 'chocolate', label: 'Chocolate' },
-  { value: 'strawberry', label: 'Strawberry' },
-  { value: 'vanilla', label: 'Vanilla' }
+    { value: 'Male', label: 'Male' },
+    { value: 'Femal', label: 'Femal' },
+    { value: 'Other', label: 'Other' }
 ]
 
 export default function ContactMe() {
@@ -25,7 +25,7 @@ export default function ContactMe() {
                     <input placeholder="Phone Number" className='ContactInput'></input>
                 </div>
                 <div className='ContactInputDiv2'>
-                <Select options={options} />
+                    <Select options={options} className='ContactInputSelect'></Select>
                 </div>
             </div>
             <div className='ContactInputDivMess'>
