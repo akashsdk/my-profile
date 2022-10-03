@@ -1,11 +1,13 @@
 import React from 'react'
 import '../Styles/ContactMe.css';
-import { Col, Row, Select, Button } from 'antd';
 
-const { Option } = Select;
-const handleChange = (value) => {
-    console.log(`selected ${value}`);
-};
+import Select from 'react-select'
+
+const options = [
+  { value: 'chocolate', label: 'Chocolate' },
+  { value: 'strawberry', label: 'Strawberry' },
+  { value: 'vanilla', label: 'Vanilla' }
+]
 
 export default function ContactMe() {
 
@@ -23,20 +25,7 @@ export default function ContactMe() {
                     <input placeholder="Phone Number" className='ContactInput'></input>
                 </div>
                 <div className='ContactInputDiv2'>
-                    <Select
-                        defaultValue="lucy"
-                        style={{
-                            width: 120,
-                        }}
-                        onChange={handleChange}
-                    >
-                        <Option value="jack">Jack</Option>
-                        <Option value="lucy">Lucy</Option>
-                        <Option value="disabled" disabled>
-                            Disabled
-                        </Option>
-                        <Option value="Yiminghe">yiminghe</Option>
-                    </Select>
+                <Select options={options} />
                 </div>
             </div>
             <div className='ContactInputDivMess'>
