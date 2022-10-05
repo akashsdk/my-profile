@@ -67,7 +67,7 @@ export default function Home() {
                     </div>
                     <div className='homeBody'>
                       <h1>
-                        <TextAnimation.Slide target="App Developer" className
+                        <TextAnimation.Slide target="App Developer" 
                           text={['[ App Developer ]', '[ Web Developer ]', '[ Freelancer ]', '[ Photographer ]']}>
                           App Developer
                         </TextAnimation.Slide>
@@ -714,7 +714,7 @@ export default function Home() {
         <div style={{ display: 'flex', }}>
           <div className='HomeDowonLine'></div>
           <div className='HomeDowonLine1'>
-            <a href="" target="ContactMe">
+            <a href="/">
               <ArrowUpOutlined className='HomeDowonLineIcon' />
             </a>
           </div>

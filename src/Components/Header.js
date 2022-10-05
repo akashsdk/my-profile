@@ -9,7 +9,7 @@ export default function Header() {
       <div>
         <nav className="navigation">
           <a href="/" className="brand-name">
-            MacroSoft
+            Tasnim Shahriar Akash
           </a>
           <button
             className="hamburger"
@@ -38,7 +38,7 @@ export default function Header() {
           >
             <ul>
               <li>
-                <a href="/home">Home</a>
+                <a href="/">Home</a>
               </li>
               <li>
                 <a href="/about">About</a>

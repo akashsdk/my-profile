@@ -16,7 +16,6 @@
     margin-left: -15px;
     width: 380px;
     border: .8px solid #fff;
-    position: absolute;
 }
 .homeImg{
     height: 300px;
@@ -160,7 +159,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-   
 }
 .HomeDowonLine1:hover{
     border: 1px solid bisque;
