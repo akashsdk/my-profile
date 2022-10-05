@@ -189,7 +189,7 @@ export default function Home() {
 
       {/* Experience,Education,Skills */}
       <Layout>
-        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'row', marginTop: '20px' }}>
+        <div className='HomeEduButton'>
           <button onClick={setHide}
             style={{ color: hide ? 'rgb(237, 158, 38)' : '#fff', fontSize: '40px', background: 'transparent', border: 'hide', }}>
             Experience
