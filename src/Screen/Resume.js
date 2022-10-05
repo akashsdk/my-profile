@@ -4,7 +4,7 @@ export default function Resume() {
   return (
     <div>
         Resume Resume
-        Resume Resume
+        Resume Resu
     </div>
   )
 }
