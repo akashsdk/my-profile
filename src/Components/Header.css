@@ -56,7 +56,7 @@
   width: 40px;
   padding: 0.5rem;
   border-radius: 50%;
-  background-color: #283b8b;
+  background-color: rgb(237, 158, 38);
   cursor: pointer;
   transition: background-color 0.2s ease-in-out;
   position: absolute;
@@ -67,7 +67,7 @@
 }
 
 .hamburger:hover {
-  background-color: #2642af;
+  background-color: rgb(255, 153, 0);
 }
 
 @media screen and (max-width: 550px) {
@@ -78,12 +78,11 @@
   .navigation-menu ul {
     flex-direction: column;
     position: absolute;
-    top: 60px;
+    top: 40px;
     left: 0;
     width: 50%;
     height: calc(100vh - 60px);
     background-color: white;
-    border-top: 1px solid black;
     display: none;
   }
 

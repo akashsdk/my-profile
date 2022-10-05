@@ -19,7 +19,7 @@ import { Link, } from "react-router-dom";
 const { Header, Footer, Sider, Content } = Layout;
 
 export default function Home() {
-  const [page, setPage] = useState(1)
+  const [page, setPage] = useState(3)
   const [hide, setHide] = useState(false)
   const setHide1 = () => {
 
