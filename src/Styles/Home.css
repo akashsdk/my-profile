@@ -157,6 +157,7 @@
 }
 .HomeExpRroBox2{
     display: flex;
+    flex: 5;
 }
 .HomeDowonLine{
     background-color: bisque;

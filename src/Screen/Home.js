@@ -19,7 +19,7 @@ import { Link, } from "react-router-dom";
 const { Header, Footer, Sider, Content } = Layout;
 
 export default function Home() {
-  const [page, setPage] = useState(3)
+  const [page, setPage] = useState(1)
   const [hide, setHide] = useState(false)
   const setHide1 = () => {
 
@@ -67,7 +67,7 @@ export default function Home() {
                     </div>
                     <div className='homeBody'>
                       <h1>
-                        <TextAnimation.Slide target="App Developer" 
+                        <TextAnimation.Slide target="App Developer"
                           text={['[ App Developer ]', '[ Web Developer ]', '[ Freelancer ]', '[ Photographer ]']}>
                           App Developer
                         </TextAnimation.Slide>
@@ -516,7 +516,7 @@ export default function Home() {
                 </div>
               </div>
             ) : (
-              <></>
+              <p>Page Error</p>
             )
           }
         </div>
@@ -556,20 +556,25 @@ export default function Home() {
         }}>
           <div className='HomeExpRroBox1'></div>
           <div className='HomeExpRroBox2'>
-            <div>
-              <p style={{ color: 'rgb(237, 158, 38)', fontSize: '20px', }}>EDU PLANET</p>
-              <p style={{ fontSize: '35px', opacity: '.6', marginTop: '-15px', marginLeft: '5px' }}>Front End Developer</p>
-              <p style={{ fontSize: '18px', marginTop: '-25px' }}>Application </p>
-            </div>
             <div style={{
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
-              marginLeft: '150px'
+              flexDirection: 'column',
             }}>
-              <p style={{ fontSize: '35px', opacity: '.6', }}>2021</p>
+              <p style={{ color: 'rgb(237, 158, 38)', fontSize: '20px', }}>EDU PLANET</p>
+              <p style={{ fontSize: '35px', opacity: '.6', marginTop: '-15px', marginLeft: '5px' }}>Front End Developer</p>
+              <p style={{ fontSize: '18px', marginTop: '-25px' }}>Application </p>
             </div>
 
+          </div>
+          <div style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            flex: '1'
+          }}>
+            <p style={{ fontSize: '35px', opacity: '.6', }}>2021</p>
           </div>
         </div>
 
@@ -589,15 +594,18 @@ export default function Home() {
               <p style={{ fontSize: '35px', opacity: '.6', marginTop: '-15px', marginLeft: '5px' }}>Front End Developer</p>
               <p style={{ fontSize: '18px', marginTop: '-25px' }}>Application </p>
             </div>
-            <div style={{
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              marginLeft: '150px'
-            }}>
-              <p style={{ fontSize: '35px', opacity: '.6', }}>2021</p>
-            </div>
 
+
+          </div>
+
+          <div style={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            marginLeft: '150px',
+            flex: '1'
+          }}>
+            <p style={{ fontSize: '35px', opacity: '.6', }}>2021</p>
           </div>
         </div>
 
@@ -618,16 +626,18 @@ export default function Home() {
               <p style={{ fontSize: '35px', opacity: '.6', marginTop: '-15px', marginLeft: '5px' }}>Front End Developer</p>
               <p style={{ fontSize: '18px', marginTop: '-25px' }}>App and Web Application </p>
             </div>
-            <div style={{
+            
+
+          </div>
+          <div style={{
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
-              marginLeft: '150px'
+              marginLeft: '150px',
+              flex:'1',
             }}>
               <p style={{ fontSize: '35px', opacity: '.6', }}>2022</p>
             </div>
-
-          </div>
         </div>
 
 
@@ -647,16 +657,18 @@ export default function Home() {
               <p style={{ fontSize: '35px', opacity: '.6', marginTop: '-15px', marginLeft: '5px' }}>Front and Back End Developer</p>
               <p style={{ fontSize: '18px', marginTop: '-25px' }}>IoT and Web Application </p>
             </div>
-            <div style={{
+            
+          </div>
+          <div style={{
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
-              marginLeft: '150px'
+              marginLeft: '150px',
+              flex:'1',
             }}>
               <p style={{ fontSize: '35px', opacity: '.6', }}>2022</p>
             </div>
 
-          </div>
         </div>
 
 
@@ -676,16 +688,18 @@ export default function Home() {
               <p style={{ fontSize: '35px', opacity: '.6', marginTop: '-15px', marginLeft: '5px' }}>Front End Developer</p>
               <p style={{ fontSize: '18px', marginTop: '-25px' }}>Application </p>
             </div>
-            <div style={{
+            
+
+          </div>
+          <div style={{
               display: 'flex',
               justifyContent: 'center',
               alignItems: 'center',
-              marginLeft: '150px'
+              marginLeft: '150px',
+              flex:'1',
             }}>
               <p style={{ fontSize: '35px', opacity: '.6', }}>2022</p>
             </div>
-
-          </div>
         </div>
       </Layout>
 
