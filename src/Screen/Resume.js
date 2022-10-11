@@ -6,6 +6,9 @@ export default function Resume() {
         Resume Resume
 
         Resume Resume
+        Resume Resume
+
+Resume Resume
     </div>
   )
 }
