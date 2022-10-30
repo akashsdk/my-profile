@@ -1,6 +1,8 @@
 import React from 'react';
 import '../Styles/ContactMe.css';
 import { Button, message } from 'antd';
+import { firestore } from "./../firebase";
+import { collection, addDoc } from "firebase/firestore";
 
 import Select from 'react-select'
 
@@ -11,32 +13,64 @@ const options = [
 ]
 const key = 'updatable';
 
-const openMessage = () => {
-  message.loading({ content: 'Loading...', key });
-  console.log("Success");
-  setTimeout(() => {
-    message.success({ content: 'Loaded!', key, duration: 2 });
-    console.log("Success And Done");
-  }, 1000);
-};
 
 export default function ContactMe() {
+    const [select,setSelect]=React.useState();
+    const [Name,setName]=React.useState();
+    const [Email,setEmail]=React.useState();
 
+    const openMessage = async () => {
+        if(!Name){
+            setTimeout(() => {
+                message.success({ content: 'Name null!', key, duration: 2 });
+            }, 1000);
+
+            return
+        }
+        message.loading({ content: 'Loading...', key });
+        try {
+            await addDoc(collection(firestore, "contact"), {
+                email: Email,
+                phone: "Japan",
+                gender:select,
+                name:Name
+            });
+            console.log("Success");
+            setTimeout(() => {
+                message.success({ content: 'Loaded!', key, duration: 2 });
+                console.log("Success And Done");
+            }, 1000);
+            //window.location.reload()
+            //window.location.href="wwww.google.com"
+        } catch (err) {
+            setTimeout(() => {
+                message.success({ content: err.message, key, duration: 2 });
+                console.log("Success And Done");
+            }, 1000);
+        }
+    
+    };
     return (
         <div className='ContactBody'>
             <div style={{ height: '20px' }} />
             <div className='ContactInputDiv'>
-                <input placeholder="Nmae" className='ContactInput'></input>
+                <input onChange={e=>{
+                    setName(e.target.value)
+                }} placeholder="Nmae" className='ContactInput'></input>
             </div>
             <div className='ContactInputDiv'>
-                <input placeholder="E-mail" className='ContactInput'></input>
+                <input onChange={e=>{
+                    setEmail(e.target.value)
+                }} placeholder="E-mail" className='ContactInput'></input>
             </div>
             <div className='ContactInputDiv1'>
                 <div className='ContactInputDiv'>
                     <input placeholder="Phone Number" className='ContactInput'></input>
                 </div>
                 <div className='ContactInputDiv2'>
-                    <Select options={options} className='ContactInputSelect'></Select>
+                    <Select  onChange={(e)=>{
+                        setSelect(e.value)
+                    }} options={options} className='ContactInputSelect'></Select>
                 </div>
             </div>
             <div className='ContactInputDivMess'>

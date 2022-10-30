@@ -190,16 +190,22 @@ export default function Home() {
       {/* Experience,Education,Skills */}
       <Layout>
         <div className='HomeEduButton'>
-          <button onClick={setHide}
-            style={{ color: hide ? 'rgb(237, 158, 38)' : '#fff', fontSize: '40px', background: 'transparent', border: 'hide', }}>
+          <button onClick={()=>{
+            setPage(1)
+          }}
+            style={{ color: page==1 ? 'rgb(237, 158, 38)' : '#fff', fontSize: '40px', background: 'transparent', border: 'hide', }}>
             Experience
           </button>
           <div className='HomeExpLine' />
-          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', background: 'transparent', border: 'hide', marginLeft: '10px' }}>
+          <button onClick={()=>{
+            setPage(2)
+          }} style={{ color: page==2 ? 'rgb(237, 158, 38)' : '#fff', fontSize: '40px', background: 'transparent', border: 'hide', marginLeft: '10px' }}>
             Education
           </button>
           <div className='HomeExpLine' />
-          <button style={{ color: 'rgb(237, 158, 38)', fontSize: '40px', background: 'transparent', border: 'hide', marginLeft: '10px' }}>
+          <button onClick={()=>{
+            setPage(3)
+          }} style={{ color: page==3 ? 'rgb(237, 158, 38)' : '#fff', fontSize: '40px', background: 'transparent', border: 'hide', marginLeft: '10px' }}>
             Skills
           </button>
         </div>
