@@ -18,6 +18,8 @@ export default function ContactMe() {
     const [select,setSelect]=React.useState();
     const [Name,setName]=React.useState();
     const [Email,setEmail]=React.useState();
+    const [Phone,setPhone]=React.useState();
+    const [Text,setText]=React.useState();
 
     const openMessage = async () => {
         if(!Name){
@@ -31,16 +33,17 @@ export default function ContactMe() {
         try {
             await addDoc(collection(firestore, "contact"), {
                 email: Email,
-                phone: "Japan",
+                phone: Phone,
                 gender:select,
-                name:Name
+                name:Name,
+                text:Text,
             });
             console.log("Success");
             setTimeout(() => {
                 message.success({ content: 'Loaded!', key, duration: 2 });
                 console.log("Success And Done");
             }, 1000);
-            //window.location.reload()
+            window.location.reload()
             //window.location.href="wwww.google.com"
         } catch (err) {
             setTimeout(() => {
@@ -65,7 +68,9 @@ export default function ContactMe() {
             </div>
             <div className='ContactInputDiv1'>
                 <div className='ContactInputDiv'>
-                    <input placeholder="Phone Number" className='ContactInput'></input>
+                    <input onChange={e=>{
+                    setPhone(e.target.value)
+                }} placeholder="Phone Number" className='ContactInput'></input>
                 </div>
                 <div className='ContactInputDiv2'>
                     <Select  onChange={(e)=>{
@@ -74,7 +79,9 @@ export default function ContactMe() {
                 </div>
             </div>
             <div className='ContactInputDivMess'>
-                <input placeholder="Messege" className='ContactInputMess'></input>
+                <input onChange={e=>{
+                    setText(e.target.value)
+                }} placeholder="Messege" className='ContactInputMess'></input>
             </div>
             <Button type="submit" className="ContactBottuntDiv" onClick={openMessage} >
                 <p className="ContactBottuntH1">Send Message!</p>
