@@ -5,8 +5,9 @@ export default function Resume() {
     <div>
         Resume Resume
 
+        Resume Resume j
         Resume Resume
-        Resume Resume
+
 
 Resume Resume
     </div>
