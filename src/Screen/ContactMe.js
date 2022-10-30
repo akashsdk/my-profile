@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import '../Styles/ContactMe.css';
+import { Button, message } from 'antd';
 
 import Select from 'react-select'
 
@@ -8,6 +9,16 @@ const options = [
     { value: 'Femal', label: 'Femal' },
     { value: 'Other', label: 'Other' }
 ]
+const key = 'updatable';
+
+const openMessage = () => {
+  message.loading({ content: 'Loading...', key });
+  console.log("Success");
+  setTimeout(() => {
+    message.success({ content: 'Loaded!', key, duration: 2 });
+    console.log("Success And Done");
+  }, 1000);
+};
 
 export default function ContactMe() {
 
@@ -31,9 +42,9 @@ export default function ContactMe() {
             <div className='ContactInputDivMess'>
                 <input placeholder="Messege" className='ContactInputMess'></input>
             </div>
-            <button type="submit" className="ContactBottuntDiv" >
-                <p className="ContactBottuntH1">Send Message</p>
-            </button>
+            <Button type="submit" className="ContactBottuntDiv" onClick={openMessage} >
+                <p className="ContactBottuntH1">Send Message!</p>
+            </Button>
         </div>
     )
 }
