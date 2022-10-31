@@ -52,7 +52,7 @@ export default function Slider() {
                 </div>
                 <div className="each-slide-effect">
                     <div style={{ 'backgroundImage': `url(${images[5]})` }}>
-                        <p className='SliderStyleP'>"In three words I can sum up everything I've learned about life: It goes on."
+                        <p className='SliderStyleP'>“Keep smiling, because life is a beautiful thing and there’s so much to smile about.”
                             <p className='SliderStyleP2'> Robert Frost</p></p>
                     </div>
                 </div>
