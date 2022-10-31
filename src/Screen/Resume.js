@@ -1,15 +1,10 @@
-import React from 'react'
-
+import React from 'react';
 export default function Resume() {
   return (
-    <div>
-      Resume Resume
+    <div> 
+      <p>ghhhh</p>
+     
 
-      Resume Resume j
-      Resume Resume
-
-
-      Resume Resume
     </div>
   )
 }

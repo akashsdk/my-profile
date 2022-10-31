@@ -84,7 +84,7 @@ export default function ContactMe() {
                 }} placeholder="Messege" className='ContactInputMess'></input>
             </div>
             <Button type="submit" className="ContactBottuntDiv" onClick={openMessage} >
-                <p className="ContactBottuntH1">Send Message!</p>
+                <p className="ContactBottuntH1">Send Message</p>
             </Button>
         </div>
     )

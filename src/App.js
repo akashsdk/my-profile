@@ -17,7 +17,7 @@ import { Routes, Route, Link, BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
-    <ConfigProvider locale={frFR}>
+    <ConfigProvider locale={frFR} >
       <BrowserRouter>
         <div className='App'>
           <Header />
