@@ -22,38 +22,38 @@ export default function Slider() {
                 <div className="each-slide-effect">
                     <div style={{ 'backgroundImage': `url(${images[0]})` }}>
                         <p className='SliderStyleP3'>"I to die, And you to live. Which is better? God only knows."
-                            <p className='SliderStyleP2'> Socrates</p></p>
+                            <p className='SliderStyleP2'> Socrates.</p></p>
 
                     </div>
                 </div>
                 <div className="each-slide-effect">
                     <div style={{ 'backgroundImage': `url(${images[1]})` }}>
                         <p className='SliderStyleP'>"You only live once, but if you do it right, once is enough."
-                            <p className='SliderStyleP2'> Mae West</p></p>
+                            <p className='SliderStyleP2'> Mae West.</p></p>
                     </div>
                 </div>
                 <div className="each-slide-effect">
                     <div style={{ 'backgroundImage': `url(${images[2]})` }}>
                         <p className='SliderStyleP3'>"Everything negative - pressure, challenges - is all an opportunity for me to rise."
-                            <p className='SliderStyleP2'> Kobe Bryant</p></p>
+                            <p className='SliderStyleP2'> Kobe Bryant.</p></p>
                     </div>
                 </div>
                 <div className="each-slide-effect">
                     <div style={{ 'backgroundImage': `url(${images[3]})` }}>
                         <p className='SliderStyleP'>"Life is like a coin. You can spend it any way you wish, but you only spend it once."
-                            <p className='SliderStyleP2'> Lillian Dickson</p></p>
+                            <p className='SliderStyleP2'> Lillian Dickson.</p></p>
                     </div>
                 </div>
                 <div className="each-slide-effect">
                     <div style={{ 'backgroundImage': `url(${images[4]})` }}>
                         <p className='SliderStyleP3'>"In three words I can sum up everything I've learned about life: It goes on."
-                            <p className='SliderStyleP2'> Robert Frost</p></p>
+                            <p className='SliderStyleP2'> Robert Frost.</p></p>
                     </div>
                 </div>
                 <div className="each-slide-effect">
                     <div style={{ 'backgroundImage': `url(${images[5]})` }}>
                         <p className='SliderStyleP'>“Keep smiling, because life is a beautiful thing and there’s so much to smile about.”
-                            <p className='SliderStyleP2'> Marilyn Monroe</p></p>
+                            <p className='SliderStyleP2'> Marilyn Monroe.</p></p>
                     </div>
                 </div>
             </Slide>
