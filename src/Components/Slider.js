@@ -12,6 +12,7 @@ export default function Slider() {
         "https://images.unsplash.com/photo-1599799394212-71860043b6d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1626&q=80",
         "https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=824&q=80",
+        "https://images.unsplash.com/photo-1498962342534-ee08a0bb1d45?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80",
     ];
 
 
@@ -46,6 +47,12 @@ export default function Slider() {
                 <div className="each-slide-effect">
                     <div style={{ 'backgroundImage': `url(${images[4]})` }}>
                         <p className='SliderStyleP3'>"In three words I can sum up everything I've learned about life: It goes on."
+                            <p className='SliderStyleP2'> Robert Frost</p></p>
+                    </div>
+                </div>
+                <div className="each-slide-effect">
+                    <div style={{ 'backgroundImage': `url(${images[5]})` }}>
+                        <p className='SliderStyleP'>"In three words I can sum up everything I've learned about life: It goes on."
                             <p className='SliderStyleP2'> Robert Frost</p></p>
                     </div>
                 </div>
