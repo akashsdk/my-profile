@@ -7,10 +7,11 @@ import 'react-slideshow-image/dist/styles.css';
 export default function Slider() {
 
     const images = [
-        "https://img.freepik.com/free-photo/old-black-background-grunge-texture-dark-wallpaper-blackboard-chalkboard-room-wall_1258-28312.jpg?w=1380&t=st=1664989250~exp=1664989850~hmac=41fe6973912a697fa6ffbc5e92c0a728351624e7ad0aeae9ca0ff849775f2506",
-        "https://img.freepik.com/free-vector/gradient-luxury-background_23-2148999255.jpg?w=1480&t=st=1664989369~exp=1664989969~hmac=bf6b20ae4e07fe8ef68874c1d134bea5de45ab7a2f4bc0fb16999efb78cfbad6",
-        "https://images.pexels.com/photos/1013516/pexels-photo-1013516.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-        "https://media.istockphoto.com/photos/straight-road-background-with-cloudy-sky-picture-id1206523388?k=20&m=1206523388&s=612x612&w=0&h=60Sh0mq_ilIEHz3HUQgOVHhZB6dISVgYkas6ruCEWI4="
+        "https://images.unsplash.com/photo-1487088678257-3a541e6e3922?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+        "https://images.unsplash.com/photo-1455467231927-8b60ed4d364d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80",
+        "https://images.unsplash.com/photo-1599799394212-71860043b6d6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1626&q=80",
+        "https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+        "https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=824&q=80",
     ];
 
 
@@ -19,22 +20,33 @@ export default function Slider() {
             <Slide>
                 <div className="each-slide-effect">
                     <div style={{ 'backgroundImage': `url(${images[0]})` }}>
-                        <p className='SliderStyleP'>1</p>
+                        <p className='SliderStyleP3'>"I to die, And you to live. Which is better? God only knows."
+                            <p className='SliderStyleP2'> Socrates</p></p>
+
                     </div>
                 </div>
                 <div className="each-slide-effect">
                     <div style={{ 'backgroundImage': `url(${images[1]})` }}>
-                        <p className='SliderStyleP'>2</p>
+                        <p className='SliderStyleP'>"You only live once, but if you do it right, once is enough."
+                            <p className='SliderStyleP2'> Mae West</p></p>
                     </div>
                 </div>
                 <div className="each-slide-effect">
                     <div style={{ 'backgroundImage': `url(${images[2]})` }}>
-                        <p className='SliderStyleP'>3 </p>
+                        <p className='SliderStyleP3'>"Everything negative - pressure, challenges - is all an opportunity for me to rise."
+                            <p className='SliderStyleP2'> Kobe Bryant</p></p>
                     </div>
                 </div>
                 <div className="each-slide-effect">
                     <div style={{ 'backgroundImage': `url(${images[3]})` }}>
-                        <p className='SliderStyleP'>4</p>
+                        <p className='SliderStyleP'>"Life is like a coin. You can spend it any way you wish, but you only spend it once."
+                            <p className='SliderStyleP2'> Lillian Dickson</p></p>
+                    </div>
+                </div>
+                <div className="each-slide-effect">
+                    <div style={{ 'backgroundImage': `url(${images[4]})` }}>
+                        <p className='SliderStyleP3'>"In three words I can sum up everything I've learned about life: It goes on."
+                            <p className='SliderStyleP2'> Robert Frost</p></p>
                     </div>
                 </div>
             </Slide>
