@@ -21,17 +21,17 @@ const { Header, Footer, Sider, Content } = Layout;
 export default function Home() {
   const [page, setPage] = useState(3)
   const [hide, setHide] = useState(false)
+  const ref=React.useRef()
   const setHide1 = () => {
 
   };
 
-
   return (
 
-    <Layout>
+    <Layout ref={ref}>
       <Row >
         <Col span={12}>
-          <div>
+          <div id="id">
 
           </div>
         </Col>
@@ -132,7 +132,7 @@ export default function Home() {
       </Layout>
       <h1 style={{ color: 'aqua', marginTop: '15px' }}>ABOUT ME</h1>
 
-      <Layout className='HomeLayout'>
+      <Layout id='aboutMe' className='HomeLayout'>
 
         <div style={{ flex: 1, flexDirection: 'row', }}>
 
@@ -734,12 +734,12 @@ export default function Home() {
         <div style={{ display: 'flex', }}>
           <div className='HomeDowonLine'></div>
           <div className='HomeDowonLine1'>
-            <a href="/">
+            <a href="#id">
               <ArrowUpOutlined className='HomeDowonLineIcon' />
             </a>
           </div>
           <div className='HomeDowonLine2'></div>
-          
+
         </div>
       </Layout>
 
