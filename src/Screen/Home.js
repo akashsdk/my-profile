@@ -123,7 +123,7 @@ export default function Home() {
           </div>
           <div>
             <Link className='HomeLayoutButton2' to="/ContactMe">Contact Me</Link>
-            <Link className='HomeLayoutButton2' to="/Resume">SEE MY RESUME</Link>
+            <a className='HomeLayoutButton2' href="#RESUME">SEE MY RESUME</a>
           </div>
         </div>
         <div style={{ flex: 1, }}>
@@ -726,7 +726,10 @@ export default function Home() {
       {/* RESUME */}
       <h1 style={{ color: 'aqua', marginTop: '65px' }}>RESUME</h1>
       <Layout>
+        
+        <div id='RESUME'>
         <Resume />
+        </div>
       </Layout>
 
       {/* Footer Line */}
