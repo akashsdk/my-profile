@@ -4,7 +4,7 @@ export default function Resume() {
     <div> 
       <p style={{
         fontSize:'30px'
-      }}>this website is under maintenance 🥴</p>
+      }}>this website is under maintenance ok🥴</p>
     </div>
   )
 }
